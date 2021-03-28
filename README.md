@@ -37,7 +37,7 @@ See project [here]()
 - I would like to know more about new drinks and services offered, to make sure I am not missing out
 - I would like to be able to contact the place through social media
 ### Wireframes
-- [Desktop]()
+- ![Desktop](./images/New Wireframe 1.png)
 - [Tablet]()
 - [Mobile]()
 ---
