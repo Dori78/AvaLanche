@@ -1,0 +1,15 @@
+.row.navbar{
+    background-color: #696969;
+    text-align: center;
+    padding:30px;
+}
+.navstyle{
+    text-decoration: none;
+    color: white;
+} 
+.navstyle:hover{
+    color: black;
+} 
+#myvideo{
+    
+}
