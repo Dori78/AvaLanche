@@ -73,14 +73,4 @@ See project [here]()
 # Credits and Resources
 ---
 # Aknowledgements
-hELLO aT ACK
 
-
-<<<<<<< Updated upstream
-
-=======
-<<<<<<< HEAD
-=======
-
->>>>>>> af3e752a705531e3731bff51628e6b17d550d5d4
->>>>>>> Stashed changes
