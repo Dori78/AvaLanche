@@ -37,7 +37,12 @@ See project [here]()
 - I would like to know more about new drinks and services offered, to make sure I am not missing out
 - I would like to be able to contact the place through social media
 ### Wireframes
+<<<<<<< Updated upstream
 - ![Desktop](./images/Wireframe_1.png)
+=======
+ HEAD
+- [Desktop]()
+>>>>>>> Stashed changes
 - [Tablet]()
 - [Mobile]()
 ---
@@ -85,4 +90,11 @@ See project [here]()
 
 
 
+<<<<<<< Updated upstream
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> af3e752a705531e3731bff51628e6b17d550d5d4
+>>>>>>> Stashed changes
