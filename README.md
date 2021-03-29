@@ -38,7 +38,7 @@ See project [here]()
 - I would like to be able to contact the place through social media
 ### Wireframes
  HEAD
-- [Desktop](https://drive.google.com/file/d/1ukKJTqub51tKBviWiE3Vfbm8cqbmPSTt/view?usp=sharing)
+- [Desktop](https://drive.google.com/drive/folders/1KU1nAUOzrRUTY-vF6WOAuszaNNNdz2wp?usp=sharing)
 - [Tablet]()
 - [Mobile]()
 ---
