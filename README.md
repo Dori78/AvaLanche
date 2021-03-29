@@ -73,17 +73,7 @@ See project [here]()
 # Credits and Resources
 ---
 # Aknowledgements
-
-
-
-
-
-
-
-
-
-
-
+hELLO aT ACK
 
 
 <<<<<<< Updated upstream
