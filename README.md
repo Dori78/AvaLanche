@@ -16,7 +16,15 @@ See project [here]()
  - #### [Existing features](#Existing-features)
  - #### [Features to implement](#Features-to-implement)
  ### [Design](#Design)
+ - #### [Colours](#Colours)
+ - #### [Typography](#Typography)
+ - #### [Images](#Images)
+ - #### [Media](#Media)
  ### [Technologies Used](#Technologies-Used)
+ - #### [HTML](#HTML)
+ - #### [CSS](#CSS)
+ - #### [Balsamiq wireframes](#Balsamiq-wireframes)
+ - #### [Google fonts](#Google-fonts)
  ### [Testing](#Testing)
  ### [Deployment](#Deployment)
  ### [Bugs and Issues](#Bugs-and-Issues)
@@ -37,7 +45,7 @@ See project [here]()
 - I would like to know more about new drinks and services offered, to make sure I am not missing out
 - I would like to be able to contact the place through social media
 ### Wireframes
-- [Desktop](https://drive.google.com/drive/folders/1KU1nAUOzrRUTY-vF6WOAuszaNNNdz2wp?usp=sharing)
+- [Desktop]()
 - [Tablet]()
 - [Mobile]()
 ---
@@ -60,8 +68,18 @@ See project [here]()
 - I would like existing customers to be informed about new services and offers of the place
 ---
 # Design
+- Colours- the colours used are grey and brown to match the logo shade and the interior of the cafe
+- Typography- I have used Montserrat and Chango with Sans Serif as a fallback to reflect the font on the logo
+- Images
+- Media
+
 ---
 # Technologies used
+- HTML
+- CSS
+- Balsamiq wireframes
+- Google fonts
+
 ---
 # Testing
 ---
