@@ -7,29 +7,29 @@ See project [here]()
  ---
  ## Content quick links
  ---
- ### [UX](#UX)
- - #### [Strategy](#Strategy)
- - #### [First time visitor goals](#First-time-visitor-goals)
- - #### [Returning visitor goals](#Returning-visitor-goals)
- - #### [Wireframes](#Wireframes)
- ### [Features](#Features)
- - #### [Existing features](#Existing-features)
- - #### [Features to implement](#Features-to-implement)
- ### [Design](#Design)
- - #### [Colours](#Colours)
- - #### [Typography](#Typography)
- - #### [Images](#Images)
- - #### [Media](#Media)
- ### [Technologies Used](#Technologies-Used)
- - #### [HTML](#HTML)
- - #### [CSS](#CSS)
- - #### [Balsamiq wireframes](#Balsamiq-wireframes)
- - #### [Google fonts](#Google-fonts)
- ### [Testing](#Testing)
- ### [Deployment](#Deployment)
- ### [Bugs and Issues](#Bugs-and-Issues)
- ### [Credits and Resources](#Credits-and-Resources)
- ### [Aknowledgement](Aknowledgement)
+ ## [UX](#ux)
+ ### [Strategy](#strategy)
+ * [First time visitor goal](#first-time-visitor-goals)
+ * [Returning visitor goals](#returning-visitor-goals)
+ * [Wireframes](#wireframes)
+ * [Features](#features)
+ * [Existing features](#existing-features)
+ * [Features to implement](#features-to-implement)
+ ### [Design](#design)
+ * [Colours](#colours)
+ * [Typography](#typography)
+ * [Images](#images)
+ * [Media](#media)
+ ### [Technologies Used](#technologies-used)
+ * [HTML](#HTML)
+ * [CSS](#CSS)
+ * [Wireframes](#wireframes)
+ * [Google fonts](#google-fonts)
+ ### [Testing](#testing)
+ ### [Deployment](#deployment)
+ ### [Bugs and Issues](#bugs-and-issues)
+ ### [Credits and Resources](#credits-and-resources)
+ ### [Aknowledgement](aknowledgement)
  ---
 
 # UX
@@ -75,7 +75,7 @@ See project [here]()
 
 ---
 # Technologies used
-- HTML
+- [HTML](W3schools.com/html/default.asp)
 - CSS
 - Balsamiq wireframes
 - Google fonts

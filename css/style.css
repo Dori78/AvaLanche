@@ -1,7 +1,13 @@
-.row.navbar{
+@import 'header.css';
+.navigation{
     background-color: #696969;
-    text-align: center;
-    padding:30px;
+    padding:20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .navstyle{
     text-decoration: none;
@@ -10,3 +16,30 @@
 .navstyle:hover{
     color: black;
 } 
+h1{
+    font-family:"Chango", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: #696969;
+    padding-top: 10px;
+}
+.hero{
+    max-width: 100vw;
+    max-height: 400px;
+    height: 300px;
+    position: relative;
+}
+.hero h2{
+    position: absolute;
+    top: 0;
+}
+#myVideo{
+    object-fit: cover;
+    width: 100%;
+    object-position: center;
+}
+
+#logo{
+    padding: 20px;
+}
+
