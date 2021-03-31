@@ -1,0 +1,9 @@
+/* This is image and text styling */
+.imgText{
+    background-color: #696969;
+}
+.imgText img{
+    width: 100%;
+    height: auto;
+    margin:50px;
+}
