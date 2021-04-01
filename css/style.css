@@ -12,6 +12,11 @@ h1{
     color: #696969;
     padding-top: 10px;
 }
+.col-lg-1.address{
+    color: #696969;
+    margin: auto;
+    padding-right: 0px;
+}
 
 /* This a navbar styling */
 .navigation{
@@ -23,6 +28,7 @@ h1{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    letter-spacing: 2px;
 }
 .navstyle{
     text-decoration: none;
@@ -46,6 +52,7 @@ h1{
     left: 50px;
     font-family:"Montserrat", sans-serif; 
     color: white;
+    font-size: 23px;
 }
 .hero h2.head2{
     position: absolute;
@@ -53,6 +60,8 @@ h1{
     left:90px;
     font-family:"Montserrat", sans-serif; 
     color: white;
+    font-size: 23px;
+
 }
 .hero h2.head3{
     position: absolute;
@@ -60,12 +69,14 @@ h1{
     left: 130px;
     font-family:"Montserrat", sans-serif; 
     color: white;
+    font-size: 23px;
 }
 #myVideo{
     object-fit: cover;
     width: 100%;
     object-position: bottom;
+    
 }
-/* This is image and text styling */
+
 
 

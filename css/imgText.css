@@ -1,9 +1,48 @@
 /* This is image and text styling */
-.imgText{
+#wallpaper{
+    background-image:url("wallpaper.jpg");
+}
+.imgLeft{
+    border: 10px solid #696969;
+    width: 60%;
+    height: 400px;
+    margin:20px;
+}
+.imgRight{
+    border: 10px solid #696969;
+    width: 60%;
+    height: 400px;
+    margin:20px;
+    
+    float: right;
+
+    
+}
+.textRight{
+    
+}
+
+
+/* Footer styling */
+.row.footer{
     background-color: #696969;
+    padding:30px;
+    text-align: center;
 }
-.imgText img{
-    width: 100%;
-    height: auto;
-    margin:50px;
+
+.fa{
+    color:white;
+    margin-left: 10px;
+    }
+.fa:hover{
+    color: black;
 }
+.col-lg-4{
+    color:white;
+    font-family:"Montserrat", sans-serif;
+    font-size: 20px; 
+}
+.col-lg-4:hover{
+    color: black;
+}
+
