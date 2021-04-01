@@ -1,27 +1,22 @@
 /* This is image and text styling */
 #wallpaper{
-    background-image:url("wallpaper.jpg");
+    background-image:url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 }
+
 .imgLeft{
     border: 10px solid #696969;
     width: 60%;
     height: 400px;
     margin:20px;
 }
+
 .imgRight{
     border: 10px solid #696969;
     width: 60%;
     height: 400px;
     margin:20px;
-    
-    float: right;
-
-    
 }
-.textRight{
     
-}
-
 
 /* Footer styling */
 .row.footer{
@@ -33,15 +28,18 @@
 .fa{
     color:white;
     margin-left: 10px;
-    }
+}
+
 .fa:hover{
     color: black;
 }
+
 .col-lg-4{
     color:white;
     font-family:"Montserrat", sans-serif;
     font-size: 20px; 
 }
+
 .col-lg-4:hover{
     color: black;
 }

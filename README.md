@@ -68,17 +68,21 @@ See project [here]()
 - I would like existing customers to be informed about new services and offers of the place
 ---
 # Design
+### Colours
 - Colours- the colours used are grey and brown to match the logo shade and the interior of the cafe
+### Typography
 - Typography- I have used Montserrat and Chango with Sans Serif as a fallback to reflect the font on the logo
+### Images
 - Images
+### Media
 - Media
 
 ---
 # Technologies used
-- [HTML](W3schools.com/html/default.asp)
-- CSS
-- Balsamiq wireframes
-- Google fonts
+### [HTML](W3schools.com/html/default.asp)
+### [CSS]()
+### [Balsamic](https://balsamiq.com/)
+### [Google fonts]()
 
 ---
 # Testing

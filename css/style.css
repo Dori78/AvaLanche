@@ -1,7 +1,7 @@
 @import 'header.css';
 @import 'imgText.css';
 
-/* This a heading styling */
+/* This a header styling */
 #logo{
     padding: 20px;
 }
@@ -12,13 +12,19 @@ h1{
     color: #696969;
     padding-top: 10px;
 }
+
 .col-lg-1.address{
     color: #696969;
     margin: auto;
     padding-right: 0px;
+    font-family:"Montserrat", sans-serif; ;
 }
 
 /* This a navbar styling */
+.navivation.sticky-top{
+    position: sticky;
+}
+
 .navigation{
     background-color: #696969;
     padding:20px;
@@ -30,10 +36,12 @@ h1{
     justify-content: space-between;
     letter-spacing: 2px;
 }
+
 .navstyle{
     text-decoration: none;
     color: white;
 } 
+
 .navstyle:hover{
     color: black;
 } 
@@ -46,35 +54,37 @@ h1{
     position: relative;
     overflow: hidden;
 }
+
 .hero  h2.head1{
     position: absolute;
     top: 50px;
     left: 50px;
-    font-family:"Montserrat", sans-serif; 
+    font-family:"Chango", sans-serif; 
     color: white;
     font-size: 23px;
 }
+
 .hero h2.head2{
     position: absolute;
     top: 90px;
     left:90px;
-    font-family:"Montserrat", sans-serif; 
+    font-family:"Chango", sans-serif; 
     color: white;
     font-size: 23px;
-
 }
+
 .hero h2.head3{
     position: absolute;
     top: 130px;
     left: 130px;
-    font-family:"Montserrat", sans-serif; 
+    font-family:"Chango", sans-serif;
     color: white;
     font-size: 23px;
 }
+
 #myVideo{
     object-fit: cover;
     width: 100%;
-    object-position: bottom;
     
 }
 
