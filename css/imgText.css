@@ -3,18 +3,29 @@
     background-image:url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 }
 
-.imgLeft{
+.containerImg1{
     border: 10px solid #696969;
     width: 60%;
     height: 400px;
     margin:20px;
 }
 
-.imgRight{
+.container1{
+    display:flex;
+    flex-direction: row;
+}
+
+.container2{
+    display:flex;
+    flex-direction: row;
+}
+
+.containerImg2{
     border: 10px solid #696969;
     width: 60%;
     height: 400px;
     margin:20px;
+    float: right;
 }
     
 
