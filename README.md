@@ -47,21 +47,21 @@ View via Github Pages [here]()
 - I would like to be able to contact the place through social media
 ### Wireframes
 - [Desktop](wireframes/desktopwire.pdf)
-- [Tablet]()
-- [Mobile]()
+- [Tablet](wireframes/tabletpwire.pdf)
+- [Mobile](wireframes/mobilewire.pdf)
 ---
 # Features
 #### The website is responsive to all devices
 ---
 ### Existing Features
-- Homepage-simple, consist of the logo and navbar fixed to the top, change of language feature and a video of a steaming cup of coffee. Further down there is are photos of the outdoor seating. 
-- About page- gives overview of why the coffee place is different, history and facilities. 
-- Menu page- 
-- Testimonials- shows reviews about the place from previous customers to create trust and express their experience
-- Contact- contains two forms. One to leave feedback and another to request booking of event 
-- Gallery- a slider of pictures showing the interior, outdoor facilities and most attractive drinks. There is also a canvas with fixed photos.
-- Language feature- translates the website content for users speaking foreign languages
-- Footer- contains links to social media and a map of the location of the place
+- **Homepage**-simple, consist of the logo and navbar fixed to the top, change of language feature and a video of a steaming cup of coffee. Further down there is are photos of the outdoor seating. 
+- **About page**-gives overview of why the coffee place is different, history and facilities. 
+- **Menu page**- 
+- **Testimonials**-shows reviews about the place from previous customers to create trust and express their experience
+- **Contact**- contains two forms. One to leave feedback and another to request booking of event 
+- **Gallery**-a slider of pictures showing the interior, outdoor facilities and most attractive drinks. There is also a canvas with fixed photos.
+- **Language feature**-translates the website content for users speaking foreign languages
+- **Footer**-contains links to social media and a map of the location of the place
 ### Features to implement
 - In the feature I would like to enable the user to buy a gift card
 - I would like to add features for the customers to be able to book their party on the site
