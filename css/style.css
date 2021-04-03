@@ -1,24 +1,22 @@
-@import 'header.css';
+
 @import 'imgText.css';
 
 /* This a header styling */
 #logo{
     padding: 10px;
-    
 }
 h1{
     font-family:"Chango", sans-serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     color: #696969;
 }
 p{
     font-family:"Chango", sans-serif;
     text-align: center;
     color: #696969;
-    font-size: 25px;
+    font-size: 30px;
 }
-
 .col-lg-2.address{
     color:#696969;
     font-family:"Montserrat", sans-serif; ;
@@ -42,12 +40,10 @@ p{
     justify-content: space-between;
     letter-spacing: 2px;
 }
-
 .navstyle{
     text-decoration: none;
     color: white;
 } 
-
 .navstyle:hover{
     color: black;
 } 
@@ -59,7 +55,6 @@ p{
     display: relative;
     overflow: hidden;
 }
-
 #myVideo{
     object-fit: cover;
     width: 100%;
@@ -68,34 +63,23 @@ p{
     left: 0;
     position: relative;
 }
-
-.hero  h2.head1{
+.head1{
     position: absolute;
-    top: 50px;
+    top: 25%;
     left: 50px;
     font-family:"Chango", sans-serif; 
-    color: black;
+    color:black;
     font-size: 23px;
-    display:;
 }
-
-.hero h2.head2{
+.head2{
     position: absolute;
-    top: 90px;
+    top: 30%;
     left:90px;
     font-family:"Chango", sans-serif; 
     color: white;
     font-size: 23px;
 }
 
-.hero h2.head3{
-    position: absolute;
-    top: 130px;
-    left: 130px;
-    font-family:"Chango", sans-serif;
-    color: white;
-    font-size: 23px;
-}
 
 
 
