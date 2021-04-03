@@ -47,14 +47,14 @@ View via Github Pages [here]()
 - I would like to be able to contact the place through social media
 ### Wireframes
 - [Desktop](wireframes/desktopwire.pdf)
-- [Tablet](wireframes/tabletpwire.pdf)
+- [Tablet](wireframes/tabletwire.pdf)
 - [Mobile](wireframes/mobilewire.pdf)
 ---
 # Features
 #### The website is responsive to all devices
 ---
 ### Existing Features
-- **Homepage**-simple, consist of the logo and navbar fixed to the top, change of language feature and a video of a steaming cup of coffee. Further down there is are photos of the outdoor seating. 
+- **Homepage**-simple, consist of the logo and navbar fixed to the top, change of language feature and a video of a steaming cup of coffee. Further down there are photos of the outdoor seating. 
 - **About page**-gives overview of why the coffee place is different, history and facilities. 
 - **Menu page**- 
 - **Testimonials**-shows reviews about the place from previous customers to create trust and express their experience
@@ -73,7 +73,7 @@ View via Github Pages [here]()
 ### Typography
 - I have used Montserrat and Chango with Sans Serif as a fallback to reflect the font on the logo. The weight of the font has been reduced or increased based on the other elements each page.
 ### Images
-- The images are provided from the owner. I have used other images used as a background. On the homepage the background colour is matching the interior of the place and is giving additional style to the page. All additional images have been useed from [Pexels](https://www.pexels.com/)
+- The images are provided from the owner. I have used other images used as a background. On the homepage the background colour is matching the interior of the place and is giving additional style to the page. All additional images used are taken from [Pexels](https://www.pexels.com/)
 ### Media
 - The video of the steaming cup of coffee has been downloaded from [Pexels](https://www.pexels.com/)
 
@@ -81,7 +81,7 @@ View via Github Pages [here]()
 ---
 # Technologies  
 
-### [HTML](W3schools.com/html/default.asp)
+### [HTML](https://www.w3schools.com/html/)
 ### [CSS](https://www.w3schools.com/css/)
 ### [Balsamiq](https://balsamiq.com/)
 ### [Google Fonts](https://fonts.google.com/)

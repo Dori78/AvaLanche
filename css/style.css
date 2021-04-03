@@ -4,6 +4,7 @@
 /* This a header styling */
 #logo{
     padding: 10px;
+    
 }
 h1{
     font-family:"Chango", sans-serif;
@@ -11,14 +12,18 @@ h1{
     font-size: 50px;
     color: #696969;
 }
+p{
+    font-family:"Chango", sans-serif;
+    text-align: center;
+    color: #696969;
+    font-size: 25px;
+}
 
 .col-lg-2.address{
     color:#696969;
     font-family:"Montserrat", sans-serif; ;
     text-align: right;
-}
-.est{
-    font-size:35px;
+    padding: 10px;
 }
 
 /* This a navbar styling */
