@@ -3,23 +3,30 @@
 
 /* This a header styling */
 #logo{
-    padding: 10px;
+    padding: 20px;
 }
+
+.container-fluid{
+    padding: 0;
+}
+
 h1{
     font-family:"Chango", sans-serif;
     text-align: center;
     font-size: 60px;
     color: #696969;
 }
+
 p{
     font-family:"Chango", sans-serif;
     text-align: center;
     color: #696969;
     font-size: 30px;
 }
+
 .col-lg-2.address{
     color:#696969;
-    font-family:"Montserrat", sans-serif; ;
+    font-family:"Montserrat", sans-serif; 
     text-align: right;
     padding: 10px;
 }
@@ -40,10 +47,12 @@ p{
     justify-content: space-between;
     letter-spacing: 2px;
 }
+
 .navstyle{
     text-decoration: none;
     color: white;
 } 
+
 .navstyle:hover{
     color: black;
 } 
@@ -55,6 +64,7 @@ p{
     display: relative;
     overflow: hidden;
 }
+
 #myVideo{
     object-fit: cover;
     width: 100%;
@@ -63,6 +73,7 @@ p{
     left: 0;
     position: relative;
 }
+
 .head1{
     position: absolute;
     top: 25%;
@@ -70,7 +81,9 @@ p{
     font-family:"Chango", sans-serif; 
     color:black;
     font-size: 23px;
+    z-index: 1;
 }
+
 .head2{
     position: absolute;
     top: 30%;
