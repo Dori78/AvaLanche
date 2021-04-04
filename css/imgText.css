@@ -6,7 +6,7 @@
 
 .containerImg1{
     border: 10px solid #696969;
-    width: 60%;
+    width: auto;
     height: 400px;
     margin:20px;
 }
@@ -23,7 +23,7 @@
 
 .containerImg2{
     border: 10px solid #696969;
-    width: 60%;
+    width: auto;
     height: 400px;
     margin:20px;
     float: right;
@@ -32,12 +32,22 @@
 .textRight{
     font-family: "Montserrat", sans-serif;
     color:white;
-    float: right;
-}   
+    text-align: center;
+    margin-top: 20px;
+} 
+strong{
+    color: #696969;
+}
+ 
+.moto{
+    text-decoration: underline;
+}
 
 .textLeft{
     font-family: "Montserrat", sans-serif;
     color:white;
+    text-align: center;
+    margin-top: 20px;
 }
     
 /* Footer styling */

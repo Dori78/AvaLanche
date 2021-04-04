@@ -6,10 +6,6 @@
     padding: 20px;
 }
 
-.container-fluid{
-    padding: 0;
-}
-
 h1{
     font-family:"Chango", sans-serif;
     text-align: center;
@@ -72,6 +68,7 @@ p{
     top: 0;
     left: 0;
     position: relative;
+    ;
 }
 
 .head1{
@@ -81,7 +78,6 @@ p{
     font-family:"Chango", sans-serif; 
     color:black;
     font-size: 23px;
-    z-index: 1;
 }
 
 .head2{

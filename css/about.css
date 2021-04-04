@@ -26,10 +26,34 @@
 } 
 
 /* Main content styling */
+.backgroundImg{
+    position: relative;
+    
+}   
+.about{
+    position: absolute;
+    
+}
+.containerImg{
+    height: 500px;
+    width: 600px;
+}
 
+.hours{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #696969;
+    font-size: 50px;
+    margin-top: 60px;
+}
+
+thead tbody{
+    font-family: "Montserrat", sans-serif;
+    color: #696969;
+}
 
     
-    
+
 
 
 

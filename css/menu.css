@@ -1,5 +1,5 @@
 /* This is a navbar style */
-.row{
+.row.navbar{
     font-family: "Montserrat", sans-serif; 
     font-size: 25px;
     background-color: #696969;
@@ -18,7 +18,39 @@
     color: black;
 }
 
-body{
-    background-image: url(https://images.pexels.com/photos/531873/pexels-photo-531873.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
-    background-repeat: no-repeat;
+.container-fluid.sticky-top{
+    position:sticky;
 }
+
+/* This is a main container style */
+
+
+
+
+/* Footer styling */
+.row.footer{
+    background-color: #696969;
+    padding:30px;
+    text-align: center;
+}
+
+.fa{
+    color:white;
+    margin-left: 10px;
+}
+
+.fa:hover{
+    color: black;
+}
+
+.col-lg-4{
+    color:white;
+    font-family:"Montserrat", sans-serif;
+    font-size: 20px; 
+}
+
+.col-lg-4:hover{
+    color: black;
+}
+
+
