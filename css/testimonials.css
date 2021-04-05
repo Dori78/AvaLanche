@@ -22,14 +22,7 @@
     position:sticky;
 }
 
-/* This is a main container style */
-.backgroundImg{
-   width: 100%;
-   background-size: cover; 
-   position: relative;
-}
-
-
+/* Main container style */  
 
 
 /* Footer styling */
@@ -57,5 +50,3 @@
 .col-lg-4:hover{
     color: black;
 }
-
-

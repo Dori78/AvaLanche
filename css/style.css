@@ -3,14 +3,17 @@
 
 /* This a header styling */
 #logo{
-    padding: 20px;
+    margin-top: 10px;
 }
-
 h1{
     font-family:"Chango", sans-serif;
     text-align: center;
     font-size: 60px;
     color: #696969;
+}
+
+.sign{
+    padding-top:15px;
 }
 
 p{
@@ -68,7 +71,7 @@ p{
     top: 0;
     left: 0;
     position: relative;
-    ;
+    
 }
 
 .head1{
@@ -76,8 +79,11 @@ p{
     top: 25%;
     left: 50px;
     font-family:"Chango", sans-serif; 
-    color:black;
-    font-size: 23px;
+    color:white;
+    font-size: 30px;
+    line-height: 25px;
+    margin: 8%;
+    
 }
 
 .head2{
@@ -86,7 +92,9 @@ p{
     left:90px;
     font-family:"Chango", sans-serif; 
     color: white;
-    font-size: 23px;
+    font-size: 30px;
+    margin: 10%;
+    
 }
 
 
