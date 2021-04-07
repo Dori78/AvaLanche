@@ -25,36 +25,63 @@
 
 
 /* Main content styling */
-.backgroundImg{
+.container-about{
     position: relative;
-    text-align: center;
-    
-}   
+}
+.background-image img{
+    width: 100%;
+    height: auto;
+}  
+ 
 .textover{
     position: absolute;
-    top: 28%;
-    left: 30%;
-    
-    
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display:flex;
+    align-items: center;
+    justify-content:center ;
 }
-.containerImg{
-    height: 500px;
-    width: 600px;
-}
-
-.hours{
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-    color: #696969;
-    font-size: 50px;
-    margin-top: 60px;
+.textover h3{
+    padding: 10px;
+    flex-basis: 70%;
 }
 
-thead tbody{
-    font-family: "Montserrat", sans-serif;
-    color: #696969;
+/* Second container */
+.container-about-opening{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutImg{
+    flex-basis: 50%;
+}
+img{
+    width: 100%;
+    height: auto;
 }
 
+.table{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+}
+table,td,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+@media only screen and (max-width: 600px) {
+    .aboutImg{
+        flex-basis: 100%;
+    } 
+    .table{
+        flex-basis: 100%;
+    }
+}
     
 
 
@@ -81,4 +108,6 @@ thead tbody{
 .col-lg-4:hover{
     color: black;
 }
+
+
 

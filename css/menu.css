@@ -22,12 +22,13 @@
     position:sticky;
 }
 
-/* This is a main container style */
-.backgroundImg{
-   width: 100%;
-   background-size: cover; 
-   position: relative;
+/* Background image style */
+.container-fluid{
+    background-image:url(https://images.pexels.com/photos/531754/pexels-photo-531754.jpeg?cs=srgb&dl=pexels-pixabay-531754.jpg&fm=jpg) ;
 }
+
+/* Dropdown style */
+
 
 
 

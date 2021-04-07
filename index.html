@@ -26,54 +26,57 @@
   </div>
   
   <!--  this a navbar -->
-  <div class="navigation sticky-top">
-      <div class="navbarItem"><a class="navstyle" href="index.html">Home</a></div>
-      <div class="navbarItem"><a class="navstyle" href="src/about.html">About</a></div>
-      <div class="navbarItem"><a class="navstyle" href="src/menu.html">Menu</a></div>
-      <div class="navbarItem"><a class="navstyle" href="src/testimonials.html">Testimonials</a></div>
-      <div class="navbarItem"><a class="navstyle" href="src/contact.html">Contact</a></div>
-      <div class="navbarItem"><a class="navstyle" href="src/gallery.html">Gallery</a></div>
-  </div>
+  <div class="container-fluid sticky-top">
+    <div class="row navbar">
+      <div class="col-lg-2"><a class="navstyle" href="index.html">Home</a></div>
+      <div class="col-lg-2"><a class="navstyle" href="src/about.html">About</a></div>
+      <div class="col-lg-2"><a class="navstyle" href="/src/menu.html">Menu</a></div>
+      <div class="col-lg-2"><a class="navstyle" href="../src/testimonials.html">Testimonials</a></div>
+      <div class="col-lg-2"><a class="navstyle" href="../src/contact.html">Contact</a></div>
+      <div class="col-lg-2"><a class="navstyle" href="../src/gallery.html">Gallery</a></div>
+    </div>
+  </div> 
 
   <!-- video -->
   <div class="hero">
       <video autoplay loop  muted id="myVideo">
           <source src="videos/video.mp4"  type="video/mp4">
       </video>
-      <h2 class="head1">Best  coffee place in town</h2>
-      <h2 class="head2">Create new memories </h2>
+      <h2 class="video-line-top">Best  coffee place in town</h2>
+      <h2 class="video-line-bottom">Create new memories </h2>
   </div>
     
 
   <!--containers with a picture and a text-->
- <div id="wallpaper">
+ <div class="main-container">
 
- <div class="container-fluid main1">
-   <div>
-      <img class="containerImg1" src="images/relax.jpg" class="imgLeft" alt="coffeecup">
+ <div class="top-container">
+   <div class="image-top">
+      <img src="images/relax.jpg"  alt="coffeecup">
    </div>
    <div class="textRight">
       <h2 class="moto">Why visit us?</h2>
-      <h3>AvaLanche offers wide range of hot, cold and alcoholic drinks, which you can enjoy with 
-        a piece of cake or freshly baked croissant. The only place in town to offer a <strong>Bubble Tea</strong>. An increadibly unique beverage 
-        made by mixing a milk or ice cream as a base, flavoured syrup and chewy little spheres that release additional flavour.
-      </h3>
+      <h3>AvaLanche offers cosy outdoor and indoor seating where you can enjoy top quality coffee with freshly baked croissant or a brownie
+     or you may want a refreshing homemade lemonade. Start or finish you day with us and we will make your day special.
+     </h3>
    </div>
 </div>
 
-<div class="container-fluid main2">  
+<div class="bottom-container">  
   <div class="textLeft">
       <h2 class="moto">What will you find here?</h2>
-      <h3>We are located in the heart of the town centre and offer outdoor and indoor seating with a private area for your meetings and a free wi-fi. 
-        Family friendly place with a playground in a quite and safe location. Parking available nearby as well. 
+      <h3>If you need a quite place for you business meeting look no further. You can sit back and relax while your children
+        play in the playground nearby. So, head our way and let us make you feel good.
       </h3>
   </div>
-  <div>
-      <img class="containerImg2" src="images/out1.jpg" class="imgRight"alt="exterior">
+  <div class="image-bottom">
+      <img src="images/out1.jpg" alt="exterior">
   </div>
 </div>
 
 </div>
+
+
 
 
   <!-- footer content -->
@@ -84,6 +87,6 @@
   </div>
 
   
-</div>
+
 </body>
 </html>

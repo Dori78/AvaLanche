@@ -1,54 +1,44 @@
 /* This is image and text styling */
-#wallpaper{
-    background-image:url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-    border:10px solid #696969
+.main-container{
+background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+background-size: cover;
 }
-
-.containerImg1{
-    border: 10px solid #696969;
-    width: auto;
-    height: 400px;
-    margin:20px;
-}
-
-.main1{
+.top-container, .bottom-container{
     display:flex;
-    flex-direction: row;
+    align-items: center;
 }
 
-.main2{
-    display:flex;
-    flex-direction: row;
+.image-top{
+    flex-basis: 50%;
+    flex-grow: 0;
 }
-
-.containerImg2{
-    border: 10px solid #696969;
-    width: auto;
-    height: 400px;
-    margin:20px;
-    float: right;
+.image-bottom{
+    flex-basis: 50%;
+    flex-grow: 0;
 }
 
 .textRight{
-    font-family: "Montserrat", sans-serif;
-    color:white;
-    text-align: center;
-    margin-top: 20px;
-} 
-strong{
-    color: #696969;
+   flex-basis: 50%;  
 }
- 
-.moto{
-    text-decoration: underline;
+.textLeft{
+   flex-basis: 50%;  
+}
+.image-top img{
+    width: 100%;
+    height: auto;
+}
+.image-bottom img{
+    width: 100%;
+    height: auto;
 }
 
-.textLeft{
-    font-family: "Montserrat", sans-serif;
-    color:white;
-    text-align: center;
-    margin-top: 20px;
-}
+    
+
+
+
+
+ 
+
     
 /* Footer styling */
 .row.footer{
