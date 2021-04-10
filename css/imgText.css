@@ -8,28 +8,32 @@ background-size: cover;
     align-items: center;
 }
 
-.image-top{
+.image-top, .image-bottom{
     flex-basis: 50%;
     flex-grow: 0;
-}
-.image-bottom{
-    flex-basis: 50%;
-    flex-grow: 0;
+    border: 6px solid #696969;
 }
 
-.textRight{
-   flex-basis: 50%;  
+.textRight, .textLeft{
+   flex-basis: 50%; 
+   color:white; 
+   font-family: "Montserrat", sans-serif; ;
+   text-align: center;
 }
-.textLeft{
-   flex-basis: 50%;  
-}
-.image-top img{
+
+.image-top img, .image-bottom img{
     width: 100%;
     height: auto;
 }
-.image-bottom img{
-    width: 100%;
-    height: auto;
+
+.moto{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    .image-top, .image-bottom, .textRight, .textLeft{
+        flex-basis: 100%;
+    }
 }
 
     
@@ -43,7 +47,7 @@ background-size: cover;
 /* Footer styling */
 .row.footer{
     background-color: #696969;
-    padding:30px;
+    padding:10px;
     text-align: center;
 }
 

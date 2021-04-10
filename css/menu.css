@@ -4,7 +4,7 @@
     font-size: 25px;
     background-color: #696969;
     font-weight: 600;
-    padding: 15px;
+    padding: 10px;
     letter-spacing: 2px;
     text-align: center;
 }
@@ -21,13 +21,34 @@
 .container-fluid.sticky-top{
     position:sticky;
 }
+ 
+/* Background image and text style */
+.back-image img{
+    width: 100%;
+    height: auto;
+} 
 
-/* Background image style */
-.container-fluid{
-    background-image:url(https://images.pexels.com/photos/531754/pexels-photo-531754.jpeg?cs=srgb&dl=pexels-pixabay-531754.jpg&fm=jpg) ;
+.menu{
+    position: relative;
 }
-
+.heading{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-decoration: underline;
+    font-family:"Montserrat", sans-serif;
+    padding: 40px
+}
 /* Dropdown style */
+.dropdown{
+    
+
+.under-img{
+    width: 100%;
+    height: auto;
+}
 
 
 
@@ -36,7 +57,7 @@
 /* Footer styling */
 .row.footer{
     background-color: #696969;
-    padding:30px;
+    padding:10px;
     text-align: center;
 }
 

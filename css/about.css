@@ -5,7 +5,7 @@
     font-size: 25px;
     background-color: #696969;
     font-weight: 600;
-    padding: 15px;
+    padding: 10px;
     letter-spacing: 2px;
     text-align: center;
 }
@@ -41,11 +41,13 @@
     right: 0;
     display:flex;
     align-items: center;
-    justify-content:center ;
+    justify-content:center;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
 }
 .textover h3{
     padding: 10px;
-    flex-basis: 70%;
+    flex-basis: 80%;
 }
 
 /* Second container */
@@ -68,6 +70,9 @@ img{
     flex-direction:column ;
     align-items: center;
     justify-content: center;
+    font-size: 28px;
+    text-align: center;
+    font-family:"Montserrat", sans-serif; 
 }
 table,td,th{
     border: 2px solid black;
@@ -90,7 +95,7 @@ table,td,th{
 /* Footer styling */
 .row.footer{
     background-color: #696969;
-    padding:30px;
+    padding:10px;
     text-align: center;
 }
 .fa{
