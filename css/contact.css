@@ -1,0 +1,23 @@
+
+.background-image img{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+ .background-image h4{
+    position: absolute;
+    top: 300px;
+    left:30px;
+    width: 30%;
+    color: white;
+}
+
+
+.feedback, {
+    position: absolute;
+    top:50%;
+}
+
+
+    

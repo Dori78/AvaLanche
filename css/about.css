@@ -45,9 +45,9 @@
     text-align: center;
     font-family: "Montserrat", sans-serif;
 }
-.textover h3{
+.textover h4{
     padding: 10px;
-    flex-basis: 80%;
+    flex-basis: 70%;
 }
 
 /* Second container */
@@ -72,7 +72,8 @@ img{
     justify-content: center;
     font-size: 28px;
     text-align: center;
-    font-family:"Montserrat", sans-serif; 
+    font-family:"Montserrat", sans-serif;
+    overflow-x: auto;
 }
 table,td,th{
     border: 2px solid black;
