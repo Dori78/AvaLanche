@@ -87,6 +87,19 @@ table,td,th{
     .table{
         flex-basis: 100%;
     }
+   
+}
+@media only screen and (max-width: 1000px){
+    .background-image{
+        display: none;
+    } 
+    .textover{
+        position: relative;
+        background-image:  url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+     }
 }
     
 

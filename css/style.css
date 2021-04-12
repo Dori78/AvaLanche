@@ -57,7 +57,7 @@ p{
 .hero{
     width: 100%;
     height: 100vh;
-    display: relative;
+    position: relative;
     overflow: hidden;
 }
 
@@ -73,7 +73,7 @@ p{
 
 .video-line-top{
     position: absolute;
-    top: 25%;
+    top: 25px;
     left: 50px;
     font-family:"Chango", sans-serif; 
     color:white;
@@ -85,12 +85,25 @@ p{
 
 .video-line-bottom{
     position: absolute;
-    top: 30%;
-    left:90px;
+    top: 85px;
+    left:60px;
     font-family:"Chango", sans-serif; 
     color: white;
     font-size: 30px;
     margin: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+   .video-line-top{
+      top:25px ;
+      left:50px;
+   } 
+    .video-line-bottom{
+        top:25px ;
+        left:60px;
+    }    
+    
+    
 }
 
 
