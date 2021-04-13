@@ -9,20 +9,16 @@
     letter-spacing: 2px;
     text-align: center;
 }
- 
-.navstyle{
+ .navstyle{
     text-decoration: none;
     color: white;
 }
-
 .navstyle:hover{
     color: black;
 }
-
 .container-fluid.sticky-top{
     position:sticky;
 }
-
 
 /* Main content styling */
 .container-about{
@@ -32,8 +28,7 @@
     width: 100%;
     height: auto;
 }  
- 
-.textover{
+ .textover{
     position: absolute;
     top: 0;
     left: 0;
@@ -63,7 +58,6 @@ img{
     width: 100%;
     height: auto;
 }
-
 .table{
     flex-basis: 50%;
     display: flex;
@@ -73,7 +67,6 @@ img{
     font-size: 28px;
     text-align: center;
     font-family:"Montserrat", sans-serif;
-    overflow-x: auto;
 }
 table,td,th{
     border: 2px solid black;
@@ -97,15 +90,11 @@ table,td,th{
         position: relative;
         background-image:  url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
         color: white;
-        padding-top: 20px;
-        padding-bottom: 20px;
-     }
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
 }
     
-
-
-
-
 /* Footer styling */
 .row.footer{
     background-color: #696969;

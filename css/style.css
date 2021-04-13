@@ -2,13 +2,10 @@
 @import 'imgText.css';
 
 /* Header styling */
-#logo{
-    margin-top: 10px;
-}
 h1{
     font-family:"Chango", sans-serif;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     color: #696969;
 }
 .sign p{
@@ -24,8 +21,7 @@ p{
     color:#696969;
     font-family:"Montserrat", sans-serif; 
     text-align: right;
-    padding: 10px;
-}
+}    
 
 /* Navbar styling */
 .row.navbar{ 
@@ -34,7 +30,6 @@ p{
     background-color: #696969;
     font-weight: 600;
     padding: 10px;
-    letter-spacing: 2px;
     text-align: center;
 }
  .navstyle{
