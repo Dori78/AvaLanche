@@ -50,6 +50,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .aboutImg{
     flex-basis: 50%;
@@ -73,14 +74,21 @@ table,td,th{
     border-collapse: collapse;
 }
 
+
 @media only screen and (max-width: 600px) {
     .aboutImg{
         flex-basis: 100%;
     } 
+    
     .table{
         flex-basis: 100%;
     }
    
+}
+@media only screen and (max-width:768px){
+    .textover h4{
+        flex-basis: 80%;
+    }
 }
 @media only screen and (max-width: 1000px){
     .background-image{
@@ -94,6 +102,7 @@ table,td,th{
         padding-bottom: 10px;
         }
 }
+
     
 /* Footer styling */
 .row.footer{

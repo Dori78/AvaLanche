@@ -23,6 +23,7 @@
 .header-image-container{
     display: flex;
     border: 8px solid #696969;
+    align-items: center;
 }
 .top-img img{
     width: 100%;
@@ -31,7 +32,6 @@
 .heading{
   text-align: center;
   flex-basis: 50%; 
-  margin-top: 60px;
   letter-spacing: 3px;
   color: #696969;
   font-family: "Chango", sans-serif;
@@ -48,7 +48,9 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+}
+.cold-container, .bubble-container{
+    flex-direction: column-reverse;
 }
 .dropdown-hot, .dropdown-cold, .dropdown-alcoholic, .dropdown-bubble{
     flex-basis: 50%;
@@ -65,27 +67,24 @@ h4{
     font-size: 40px;
 }
 .firstimg, .secondimg, .thirdimg, .forthimg{
-    flex-basis: 45%;
+    flex-basis: 50%;
     border: 8px solid #696969;
-    align-items: ;
-}
-.firstimg, .thirdimg{
-    
 }
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 768px) {
+    .hot-container, .cold-container, .alcoholic-container, .bubble-container{
+        flex-wrap: wrap;
+    }
     .firstimg, .secondimg, .thirdimg, .forthimg{
-        
+        flex-basis: 100%;
     }
-    .top-img{
-        
-    }
-    .heading{
-        
-    }
-       
 }
-
+@media only screen and (max-width: 576px){
+  .heading h1{
+      font-size: 16px;
+  }
+}
 
 /* Footer styling */
 .row.footer{
