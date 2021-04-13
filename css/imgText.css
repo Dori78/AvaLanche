@@ -1,9 +1,4 @@
 /* This is image and text styling */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 .main-container{
 background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 background-size: cover;
@@ -12,25 +7,21 @@ background-size: cover;
     display:flex;
     align-items: center;
 }
-
 .image-top, .image-bottom{
     flex-basis: 50%;
     flex-grow: 0;
     border: 6px solid #696969;
 }
-
 .textRight, .textLeft{
    flex-basis: 50%; 
    color:white; 
    font-family: "Montserrat", sans-serif; 
    text-align: center;
 }
-
 .image-top img, .image-bottom img{
     width: 100%;
     height: auto;
 }
-
 .moto{
     text-decoration: underline;
 }
@@ -44,36 +35,24 @@ background-size: cover;
     }
 }
 
-    
-
-
-
-
- 
-
-    
 /* Footer styling */
 .row.footer{
     background-color: #696969;
     padding:10px;
     text-align: center;
 }
-
 .fa{
     color:white;
     margin-left: 10px;
 }
-
 .fa:hover{
     color: black;
 }
-
 .col-lg-4{
     color:white;
     font-family:"Montserrat", sans-serif;
     font-size: 20px; 
 }
-
 .col-lg-4:hover{
     color: black;
 }

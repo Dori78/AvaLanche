@@ -1,7 +1,7 @@
 
 @import 'imgText.css';
 
-/* This a header styling */
+/* Header styling */
 #logo{
     margin-top: 10px;
 }
@@ -11,7 +11,6 @@ h1{
     font-size: 60px;
     color: #696969;
 }
-
 .sign p{
    margin-bottom: 0; 
 }
@@ -21,7 +20,6 @@ p{
     color: #696969;
     font-size: 30px;
 }
-
 .col-lg-2.address{
     color:#696969;
     font-family:"Montserrat", sans-serif; 
@@ -29,7 +27,7 @@ p{
     padding: 10px;
 }
 
-/* This a navbar styling */
+/* Navbar styling */
 .row.navbar{ 
     font-family:"Montserrat", sans-serif; 
     font-size: 25px;
@@ -39,28 +37,24 @@ p{
     letter-spacing: 2px;
     text-align: center;
 }
- 
-.navstyle{
+ .navstyle{
     text-decoration: none;
     color: white;
 }
-
 .navstyle:hover{
     color: black;
 }
-
 .container-fluid.sticky-top{
     position:sticky;
 }
 
-/* This a myVideo styling */
+/* myVideo styling */
 .hero{
     width: 100%;
     height: 100vh;
     position: relative;
     overflow: hidden;
 }
-
 #myVideo{
     object-fit: cover;
     width: 100%;
@@ -68,42 +62,37 @@ p{
     top: 0;
     left: 0;
     position: relative;
-    
 }
-
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
 .video-line-top{
     position: absolute;
-    top: 25px;
-    left: 50px;
+    top: 75px;
+    left: 105px;
     font-family:"Chango", sans-serif; 
     color:white;
     font-size: 30px;
-    line-height: 25px;
-    margin: 8%;
-    
 }
-
 .video-line-bottom{
     position: absolute;
-    top: 85px;
-    left:60px;
+    top: 125px;
+    left:50px;
     font-family:"Chango", sans-serif; 
     color: white;
     font-size: 30px;
-    margin: 10%;
 }
 
 @media only screen and (max-width: 600px) {
    .video-line-top{
-      top:25px ;
-      left:50px;
+      top:15px ;
+      left:30px;
    } 
     .video-line-bottom{
-        top:25px ;
-        left:60px;
+        top:90px ;
+        left:30px;
     }    
-    
-    
 }
 
 
