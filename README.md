@@ -32,21 +32,6 @@ From the **links bellow** you can see the wireframes on different devices starti
 - [Tablet](wireframes/tablet.pdf)
 - [Desktop](wireframes/desktop.pdf)
 ---
-### User Stories
-#### As a first time visitor I want to:
-- understand the purpose of the website
-- be able to see the information comfortably on my mobile
-- be able to read and look at the images on smaller devices
-- find out where the cafe is located
-- be able to navigate easily around the site and don't get lost in the content
-- be able to see what facilities the cafe has
-- be able to view photos of the cafe and drinks offered
-- know what previous customers think about the place
-#### As a returning visitor I want to:
-- be able to leave feedback about my experience
-- know more about new drinks and services offered to make sure I am not missing out
-- be able to contact the place through social media
----
 ### **5. Surface** - design of the website
 * **Homepage** - the header consists of a logo, name of the cafe, est. year and address. The navbar was styled using Bootstrap, to give it responsiveness and is sticked to the top on all pages to avoid the user scrolling up to access another page.The video is interactive and prompts the user to scroll down where the user can see a photo of the outdoor seating area , giving more realistic view of the cafe. Some facilities and products are mentioned here to make user look further into the site. The footer has three links to social media and Google map.
 * **About** - there is a short description of how the cafe was established and its attractive location. The eyecatching elements here are the text background and the pouring coffee image. Information about the opening hours is also included here. By now the user will have enough information to make him/her want to see what the place offers and move to menu page.
@@ -58,7 +43,7 @@ From the **links bellow** you can see the wireframes on different devices starti
 
 # Features
 The main idea when designing this site is to be responsive on all devices, but I have taken particular care with mobile devices. I have ensured that all the information and images are visible and easy to read following the industry recommendations of displaying more than three word within a line of text. Where appropriate the text wraps the images and the bigger background images have been replaced with a wallpaper to allow the user follow the information in more structured way, but still give the site colour.
-#### **Existing Features**
+### **Existing Features**
 - video, which repeatedly runs for 10 seconds and there are no control buttons visible. It is more like an interactive decoration of the Homepage
  - navbar is sticked to the top, which is displayed in each page so the user can go forward and backward with a simple click instead of scrolling up and down. This will benefit mobile users, where the content takes more space. The navbar also colapses on smaller devices into a Burger Menu
  - I have included either an image or a photo as a background to give the site more colourfull look
