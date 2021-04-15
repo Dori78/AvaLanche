@@ -3,43 +3,7 @@ View via Github Pages [here]()
 
 ![Am I Responsive] ()
 
- ### **Table of Content**
- ---
- # [UX](#ux)
- ### [1. Strategy](#strategy)
- #### [User Stories](#user-stories)
- * [First time visitor goal](#first-time-visitor-goals)
- * [Returning visitor goals](#returning-visitor-goals)
- ### [2. Scope](#scope)
- ### [3. Structure](#structure)
- ### [4. Sceleton](#sceleton)
- * [Wireframes](#Wireframes)
- ### [5. Surface](#surface)
- ### [Features](#features)
- * [Existing features](#existing-features)
- * [Features to implement](#features-to-implement)
- ### [Design](#design)
- * [Colours](#colours)
- * [Typography](#typography)
- * [Images](#images)
- * [Media](#media)
- ### [Technologies](#technologies)
- ### [Testing](#tetsing)
- ### [Deployment](#deployment)
  
- 
- ### [Technologies](#technologies)
- * [HTML](#HTML)
- * [CSS](#CSS)
- * [Balsamiq](#balsamiq)
- * [Google fonts](#google-fonts)
- * [Font Awesome](https://fontawesome.com/)
- ### [Testing](#testing)
- ### [Deployment](#deployment)
- ### [Bugs and Issues](#bugs-and-issues)
- ### [Credits and Resources](#credits-and-resources)
- ### [Aknowledgement](aknowledgement)
- ---
 # UX
 ### **1. Strategy**
 My project is to produce a simple and easy to navigate site about a newly opened cafe in the town of Ruse, Bulgaria. The information about the site is spread over six pages, where each page has its own purpose.The main strategy of the site is to turn visitors into customers. Once the user has explored the site they would be interested to visit the place and return.The main goal of the site is to attract new clients and make the cafe well-known in town. The site is designed to be informative, accessible on all devices and simple to navigate around. I have tried to keep the site simple, because many users have limited technical knowleadge and sometimes feel unconfident to navigate around sites.
@@ -64,9 +28,9 @@ The information about the cafe is structures to first familiarise the user with 
 ### **4. Sceleton**
 From the **links bellow** you can see the wireframes on different devices starting with mobile, as a device used by most users. From the wireframes the user will  have a better idea of the structure of the site and the relationship between the content. 
  #### **Wireframes**
-- [Desktop](wireframes/desktopwire.pdf)
-- [Tablet](wireframes/tabletwire.pdf)
-- [Mobile](wireframes/mobilewire.pdf)
+- [Mobile](wireframes/mobile.pdf)
+- [Tablet](wireframes/tablet.pdf)
+- [Desktop](wireframes/desktop.pdf)
 ---
 ### User Stories
 #### As a first time visitor I want to:
