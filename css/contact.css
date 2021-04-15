@@ -1,27 +1,21 @@
-
-
 body {
     background-image: url(../images/contactimg.jpg);
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
   }
-
-  
- h4{
+h4{
      font-family:"Montserrat", sans-serif;
      background-color:#696969; 
      width: 50%; 
      color: white;
-     
      padding:20px;
      text-align: center;
      
- }
+  }
+  
 
- .feedback, .booking{
-    
- }
+ 
 
   
 
