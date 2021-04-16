@@ -1,18 +1,59 @@
 body {
-    background-image: url(../images/contactimg.jpg);
+    background-image: url(../images/contactimage.jpg);
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
-  }
-h4{
+    }
+    h4{
      font-family:"Montserrat", sans-serif;
      background-color:#696969; 
      width: 50%; 
      color: white;
-     padding:20px;
+     padding:30px;
      text-align: center;
-     
+    }
+  .container-contact{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+.heading{
+    flex-basis: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 30%;
   }
+  .feedback, .booking{
+    color:white
+  }
+  h3{
+    font-family: "Montserrat", sans-serif;
+  } 
+  .feedback{
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  .booking{
+    margin-right: 1%;
+    margin-top: 2%;
+  }
+@media only screen and (max-width: 576px){
+  .container-contact{
+    flex-wrap: wrap;
+  }
+  .heading{
+    flex-wrap: wrap;
+  }
+}
+
+    
+
+    
+    
+  
+
   
 
  

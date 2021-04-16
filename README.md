@@ -83,7 +83,7 @@ The main idea when designing this site is to be responsive on all devices, but I
 #### [Visual Studio Code](https://code.visualstudio.com/) : the most widely used development workplace
 #### [Github](https://github.com/) : for remote access of the site
 #### [Chrome Developer Tool](https://developer.chrome.com/docs/devtools/) : to inspect code and help fix issues
-
+#### [Flexbox](https://www.sketchingwithcss.com/samplechapter/cheatsheet.html) : used as a powerful tool to move items on a page.
 ---
 # Testing
 ### [HTML validation](https://validator.w3.org/)
@@ -91,6 +91,18 @@ The main idea when designing this site is to be responsive on all devices, but I
 ### [Lighthouse Testing](https://developers.google.com/web/tools/lighthouse) : to improve the quality of the web page
 ---
 # Deployment
+### **GitHub Pages** - it is used to host a website directly from a GitHub repository. I used the following steps to deploy my project on GitHub Pages:
+- I opened the repo from my GitHub account and clicked **Settings** on the right side corner
+- I scrolled down to **Pages**
+- then I choose **Public** visibility
+- from the **Source** section I selected branch **Master** and pressed **Save**
+- the site was hosted on **GitHub Pages**
+- I waited a few minutes before I could see it live
+
+### **Fork the GitHub** repo - forking allows to make a copy of the original and make changes without affecting the original. I followed the next steps:
+- from the repo page select **Fork** button on the right corner
+- the copy was made on the GitHub account
+###
 ---
 # Bugs and Issues
 ---
