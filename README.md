@@ -2,6 +2,35 @@
 View via Github Pages [here]()
 
 ![Am I Responsive] ()
+## Table of Content
+[UX](#ux)
+
+[1.Strategy](#strategy)
+
+[2.Scope](#scope)
+
+[3.Structure](#structure)
+
+[4.Sceleton](#sceleton)
+
+[5.Surface](#surface)
+
+[Features](#featutes)
+
+[Design](#Design)
+
+[Technologies](#technologies)
+
+[Testing](#testing)
+
+[Deployment](#deployment)
+
+[Bugs and Issues](#bugs-and-issues)
+
+[Credits and Resources](#credits-and-resources)
+
+
+
 
  
 # UX
@@ -42,7 +71,7 @@ From the **links bellow** you can see the wireframes on different devices starti
 ---
 
 # Features
-The main idea when designing this site is to be responsive on all devices, but I have taken particular care with mobile devices. I have ensured that all the information and images are visible and easy to read following the industry recommendations of displaying more than three word within a line of text. Where appropriate the text wraps the images and the bigger background images have been replaced with a wallpaper to allow the user follow the information in more structured way, but still give the site colour.
+The main idea when designing this site is to be responsive on all devices this is why I have taken particular care with mobile devices. I have ensured that all the information and images are visible and easy to read following the industry recommendations of displaying more than three word within a line of text. Where appropriate the text wraps the images and the bigger background images have been replaced with a wallpaper on smaller devices to allow the user follow the information in more structured way, but still give the site colour.
 ### **Existing Features**
 - video, which repeatedly runs for 10 seconds and there are no control buttons visible. It is more like an interactive decoration of the Homepage
  - navbar is sticked to the top, which is displayed in each page so the user can go forward and backward with a simple click instead of scrolling up and down. This will benefit mobile users, where the content takes more space. The navbar also colapses on smaller devices into a Burger Menu
@@ -55,20 +84,20 @@ The main idea when designing this site is to be responsive on all devices, but I
 
 ### **Features to implement**
 - In the feature I would like to enable the user to buy a gift card on the site
-- I would like to add features for the customers to be able to book their party on the site and thsi to be coordinated with the cafe's diary
+- I would like to add features for the customers to be able to book their party on the site and this is to be coordinated with the cafe's diary
 - I woould loke to include a feature, where the customers can register on the site to receive news about offers and new drinks
 - I would like to enable the user to collect points through a digital reward system
-- online ordering and delivery features
+- I would like to include online ordering and delivery features
 ---
 # Design
 ### Colours
-- the main colour used on the header and footer is grey/#6096969/ to match the colour of the logo. I have also used the same colour for the font throughout the site. Photos have a #696969 border, which I think gives very stylish look and is matching well with the other elements on each page.The additional colours are  white and black on the text to make it stand out and be easy to read depending on the background. I have only used these colours to create simplicity and make the photos stand out.
+- the main colour used on the header and footer is grey/#696969/ to match the colour of the logo. I have also used the same colour for the font throughout the site. Photos have a #696969 border, which I think gives very stylish look and is matching well with the other elements on each page.The additional colours are  white and black on the text to make it stand out and be easy to read depending on the background. I have only used these  three colours to create simplicity and make the photos stand out.
 ### Typography
-- I have used Montserrat and Chango with Sans Serif as a fallback to reflect the font on the logo. Chango have been used for headers and slogans, while Montserrat for text. The weight of the font has been reduced or increased based on the other elements  of each page. The size of the font is choosen individually on each page to cooperate with the images.
+- I have used Montserrat and Chango with Sans Serif as a fallback to reflect the font of the logo. Chango have been used for headers and slogans, while Montserrat for text. The weight of the font has been reduced or increased based on the other elements  of each page. The size of the font is choosen individually on each page to cooperate with the images.
 ### Images
 - the images used in the side are provided by the owner. I have used other images as well as a background.  All additional images used are taken from [Pexels](https://www.pexels.com/). All images came in different sizes and to make them look balanced with the other elements I have reduced or incresed the size.
 ### Media
-- the  short video of the steaming cup of coffee has been downloaded from [Pexels](https://www.pexels.com/) It has no sound, because is designed to give more delicate feeling and look of the site. 
+- the  short video of the steaming cup of coffee on the Homepage has been downloaded from [Pexels](https://www.pexels.com/) It has no sound, because is designed to give more delicate feeling and look of the site. 
 ---
 # Technologies  
 #### [HTML](https://www.w3schools.com/html/)
@@ -89,24 +118,46 @@ The main idea when designing this site is to be responsive on all devices, but I
 ### [HTML validation](https://validator.w3.org/)
 ### [CSS validation](https://jigsaw.w3.org/css-validator/)
 ### [Lighthouse Testing](https://developers.google.com/web/tools/lighthouse) : to improve the quality of the web page
+### **Manual testing** - in my opinion manually testing a site on different devices gives the best overview and points out any issues with design and responsiveness. I had to fix a few things that were not showing on Google Dev Tool, but I found out about them when I was inspecting the site manually. The devices that the project was tested on are:
+- Dell Inspiron laptop
+- MacBook pro
+- Ipad Air2
+- Iphone 8 and 11
 ---
 # Deployment
-### **GitHub Pages** - it is used to host a website directly from a GitHub repository. I used the following steps to deploy my project on GitHub Pages:
-- I opened the repo from my GitHub account and clicked **Settings** on the right side corner
+### [**GitHub Pages**](https://pages.github.com/) - it is used to host a website directly from a GitHub repository. I used the following steps to deploy my project on GitHub Pages:
+- I opened the repo from my GitHub account and clicked **Settings** on the upper right side corner
 - I scrolled down to **Pages**
 - then I choose **Public** visibility
 - from the **Source** section I selected branch **Master** and pressed **Save**
 - the site was hosted on **GitHub Pages**
 - I waited a few minutes before I could see it live
-
-### **Fork the GitHub** repo - forking allows to make a copy of the original and make changes without affecting the original. I followed the next steps:
-- from the repo page select **Fork** button on the right corner
+![GitHub Pages](wireframes/githubpages.png)
+### **Fork a repo on GitHub** - forking allows to make a copy of the original and make changes without affecting the original. I followed the next steps:
+- from the repo page select **Fork** button on the upper right corner
 - the copy was made on the GitHub account
-###
 ---
 # Bugs and Issues
+### Throughout the project I expereinced the following issues , which I fixed mainly by researching the web:
+- I experienced an issue with GitHub Desktop program- it stopped working for no reason, some of my code got lost and messed up my fully completed Homepage. I also had an error message when I tried to push to GitHub. I investigated in the Task Manager, but it wasn't showing there. I uninstalled and installed it again which worked. Then I found in my commit history my old code and copied it into my index.html and CSS. I couldn't find any information about what could have caused this
+- Because I am writing my own code and not using snippets and Bootstrap for most of the project I had issues with the responsiveness on a tablet and a mobile. This made me research about media query  and understand it and I fixed the issues by applying media query for devices of max-width: 576px and 768px
+- I found out that using percentages instead of px when appropriate gives me more flexibility and responsiveness
+- Navbar- the navbar was taking too much of the screen space on mobile devices and I had to design a Burger Menu to make it more user friendly
+- Homepage - the browser was applying a left and right margin, which I fixed by giving a "0" margin and padding of the main container in the CSS. Also the two line text over the video never looked at the right place. If it was OK on desktop, was out of alignment on mobile and again at different position on a tablet. I inspected it with the Google Dev Tool and corrected the values
+- About- the background image was not looking good on smaller devices, so I replaced it with a wallpaper by media query
+- Menu- the containers with a text and image were wrapping nicely on mobile devices, but they were not in order- instead of image-text-image-text it was rendering as image-text-text-image. I found out how to fix this by exploring Flexbox and used the property flex-direction:column-reverse
+- 
 ---
 # Credits and Resources
+## I would like to thank the AvaLance Cafe management for providing me with the photos and information about the cafe.
 ---
-# Aknowledgements
+### Code Institute- for providing the course materials
+### YourTube- for quick and effective advice 
+### W3Schools- for the useful examples and detailed explanation
+### Developer Mozilla- for the documentation and learning resources
+### Tympanus- for the extended CSS reference 
+### My mentor Dick Vlaanderen- for the useful tips and support
+
+
+
 

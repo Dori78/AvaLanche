@@ -73,6 +73,9 @@ h4{
     .firstimg, .secondimg, .thirdimg, .forthimg{
         flex-basis: 100%;
     }
+    .cold-container, .bubble-container{
+        flex-direction: column-reverse;
+    }
 }
 @media only screen and (max-width: 576px){
   .heading h1{
