@@ -23,17 +23,18 @@
     align-items: center;
 }
 .left-content img, .right-content img{
-width: 30%;
+width: 35%;
 height: auto;
 border-radius: 50%;
 border: 5px solid #696969;
 }
 .left-content, .right-content{
     flex-direction: row;
-    flex-basis: 30%;
+    flex-basis: 60%;
     margin: 2%;
-    
 }
+
+
 .heading{
     color: white;
     background-color: #696969;
@@ -41,12 +42,26 @@ border: 5px solid #696969;
     text-align: center;
     justify-content: center;
     border-radius: 60%;
-    padding: 30px;
+    padding: 40px;
+    letter-spacing: 2px;
 }
     p{
     text-align: center;
     font-family: "Montserrat", sans-serif;
     color: #696969;
+    letter-spacing: 1px;
+}
+.right-top, .left-center, .left-bottom, .left-top, .right-center, .right-bottom{
+    text-align: center;
+}
+@media only screen and (max-width: 576px){
+    .testimonials-container{
+        flex-wrap: wrap;
+    }
+    
+    .left-content, .right-content{
+        flex-basis: 80%;
+    }
 }
 
     
