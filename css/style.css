@@ -1,6 +1,8 @@
 
 @import 'imgText.css';
-
+body{
+    overflow-x: hidden;
+}
 /* Header styling */
 h1{
     font-family:"Chango", sans-serif;

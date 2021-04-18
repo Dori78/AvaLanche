@@ -1,4 +1,7 @@
 /* This is a navbar style */
+body{
+    overflow-x: hidden;
+}
 .row.navbar{
     font-family: "Montserrat", sans-serif; 
     font-size: 25px;
@@ -58,6 +61,9 @@ border: 5px solid #696969;
     }
     .heading{
       padding: 4%;  
+    }
+    .heading, .left-content{
+        flex-direction: row-reverse;
     }
 }
 @media only screen and (max-width: 768px){

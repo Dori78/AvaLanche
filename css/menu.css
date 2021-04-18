@@ -1,4 +1,7 @@
 /* This is a navbar style */
+body{
+    overflow-x: hidden;
+}
 .row.navbar{
     font-family: "Montserrat", sans-serif; 
     font-size: 25px;

@@ -1,0 +1,47 @@
+body{
+    overflow-x: hidden;
+}
+.row.navbar{
+    font-family: "Montserrat", sans-serif; 
+    font-size: 25px;
+    background-color: #696969;
+    text-align: center;
+}
+ .navstyle{
+    text-decoration: none;
+    color: white;
+}
+.navstyle:hover{
+    color: black;
+}
+.container-fluid.sticky-top{
+    position:sticky;
+}
+
+/*Slidshow container*/
+
+
+/* Footer styling */
+.row.footer{
+    background-color: #696969;
+    padding:10px;
+    text-align: center;
+}
+.fa{
+    color:white;
+    margin-left: 10px;
+}
+.fa:hover{
+    color: black;
+}
+.col-lg-4{
+    color:white;
+    font-family:"Montserrat", sans-serif;
+    font-size: 20px; 
+}
+.col-lg-4:hover{
+    color: black;
+}
+
+
+

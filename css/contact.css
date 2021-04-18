@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
+    overflow-x: hidden;
     }
     h4{
      font-family:"Montserrat", sans-serif;
@@ -44,6 +45,9 @@ body {
 @media only screen and (max-width: 768px){
 .container-contact{
   flex-wrap: wrap;
+}
+.feedback, .booking{
+  flex-basis: 60%;
 }
 }
 
