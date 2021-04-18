@@ -71,7 +71,6 @@ table,td,th{
     border-collapse: collapse;
 }
 
-
 @media only screen and (max-width: 576px) {
     .aboutImg{
         flex-basis: 100%;
@@ -100,7 +99,6 @@ table,td,th{
         }
 }
 
-    
 /* Footer styling */
 .row.footer{
     background-color: #696969;

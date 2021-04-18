@@ -13,39 +13,34 @@ body {
      text-align: center;
     }
   .container-contact{
-    position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    }
-.heading{
-    flex-basis: 50%;
-    position: absolute;
-    display: flex;
     justify-content: center;
-    top: 30%;
-  }
+    align-items: center;
+    }
+  .heading{
+    flex-direction: row;
+    justify-content: center;
+    }
   .feedback, .booking{
-    color:white
-  }
-  h3{
+    flex-direction: row;
+    color:white;
+    flex-basis: 70%;
+    margin: 4%;
     font-family: "Montserrat", sans-serif;
-  } 
-  .feedback{
-    margin-left: 3%;
-    margin-top: 2%;
   }
-  .booking{
-    margin-left: 1%;
-    margin-top: 2%;
-  }
+  
+  
+ 
+ 
 @media only screen and (max-width: 576px){
   .container-contact{
     flex-wrap: wrap;
   }
-  .heading{
-    flex-wrap: wrap;
-  }
+  
+}
+@media only screen and (max-width: 768px){
+
 }
 
     

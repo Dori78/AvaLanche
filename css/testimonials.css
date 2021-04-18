@@ -30,11 +30,9 @@ border: 5px solid #696969;
 }
 .left-content, .right-content{
     flex-direction: row;
-    flex-basis: 60%;
+    flex-basis: 70%;
     margin: 2%;
 }
-
-
 .heading{
     color: white;
     background-color: #696969;
@@ -58,17 +56,18 @@ border: 5px solid #696969;
     .testimonials-container{
         flex-wrap: wrap;
     }
-    
-    .left-content, .right-content{
-        flex-basis: 80%;
+}
+@media only screen and (max-width: 768px){
+.left-content, .right-content{
+    flex-basis: 100%;
+    margin: 1%;
+    }
+    .heading{
+        padding: 30%;
     }
 }
-
     
     
-    
-
-
 /* Footer styling */
 .row.footer{
     background-color: #696969;
