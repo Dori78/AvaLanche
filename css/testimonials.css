@@ -61,6 +61,7 @@ border: 5px solid #696969;
     }
     .heading{
       padding: 4%;  
+      order: -1;
     }
     .heading, .left-content{
         flex-direction: row-reverse;

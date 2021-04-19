@@ -3,6 +3,12 @@
 body{
     overflow-x: hidden;
 }
+.row{
+    overflow-x: hidden;
+    max-width: 100vw;
+    margin-left: 0;
+    margin-right: 0;
+}
 /* Header styling */
 h1{
     font-family:"Chango", sans-serif;
@@ -26,20 +32,21 @@ p{
 }    
 
 /* Navbar styling */
-.row.navbar{ 
+.navbar{ 
     font-family:"Montserrat", sans-serif; 
     font-size: 25px;
-    background-color: #696969;
-    text-align: center;
+    
 }
- .navstyle{
-    text-decoration: none;
+.navbar-nav{
+    background-color: #696969;
+    width: 100%;
+    
+}
+ 
+.navbar .navbar-nav .nav-item .nav-link{
     color: white;
 }
-.navstyle:hover{
-    color: black;
-}
-.container-fluid.sticky-top{
+.sticky-top{
     position:sticky;
 }
 
