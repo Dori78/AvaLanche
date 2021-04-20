@@ -90,12 +90,14 @@ p{
 
 @media only screen and (max-width: 576px) {
    .video-line-top{
-      top:15px ;
+      top:15px;
       left:30px;
+      font-size: 20px;
    } 
     .video-line-bottom{
-        top:90px ;
+        top:80px ;
         left:30px;
+        font-size: 20px;
     } 
     .navbar{
         font-size: 12px;
