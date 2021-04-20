@@ -73,7 +73,7 @@ p{
 }
 .video-line-top{
     position: absolute;
-    top: 75px;
+    top: 65px;
     left: 105px;
     font-family:"Chango", sans-serif; 
     color:white;
@@ -81,7 +81,7 @@ p{
 }
 .video-line-bottom{
     position: absolute;
-    top: 125px;
+    top: 110px;
     left:50px;
     font-family:"Chango", sans-serif; 
     color: white;
@@ -104,8 +104,8 @@ p{
     }
     .navbar-toggler{
         padding: 0;
-        
-    }   
+        }
+    
 }
 @media only screen and (max-width:768px){
     .address{
@@ -114,6 +114,17 @@ p{
     .navbar{
         font-size: 15px;
     }
+    #logo{
+        width: 15px;
+        height: 15px;
+    }
+    h1{
+        font-size: 40px;
+    }
+        p{
+            font-size: 35px;
+    }
+      
 }
 
 
