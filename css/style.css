@@ -96,7 +96,22 @@ p{
     .video-line-bottom{
         top:90px ;
         left:30px;
-    }    
+    } 
+    .navbar{
+        font-size: 12px;
+    }
+    .navbar-toggler{
+        padding: 0;
+        
+    }   
+}
+@media only screen and (max-width:768px){
+    .address{
+        display: none;
+    }
+    .navbar{
+        font-size: 15px;
+    }
 }
 
 
