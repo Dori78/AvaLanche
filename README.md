@@ -1,7 +1,7 @@
 # AvaLanche Cafe - Milestone 1
-View via Github Pages [here]()
+View via Github Pages [here](https://dori78.github.io/AvaLanche/)
 
-![Am I Responsive] ()
+![AvaLanche](screenshots/AvaLanche.png)
 ## Table of Content
 [UX](#ux)
 
