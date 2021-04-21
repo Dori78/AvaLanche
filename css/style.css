@@ -1,5 +1,6 @@
 
 @import 'imgText.css';
+@import 'navbar-footer.css';
 body{
     overflow-x: hidden;
 }
@@ -37,6 +38,7 @@ p{
     text-align: right;
     }  
 /* Navbar styling */
+
 .navbar{ 
     font-family:"Montserrat", sans-serif; 
     font-size: 25px;
@@ -109,7 +111,7 @@ p{
 }
 .logo img{
     width: 40px;
-    height: 40px; 
+    height: 40px;
 }
 .address{
     display: none;
@@ -124,6 +126,9 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.row.footer {
+    font-size: 12px;
 }
 }
 @media only screen and (max-width:768px){

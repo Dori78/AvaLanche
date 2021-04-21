@@ -6,7 +6,11 @@ body{
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-}   
+} 
+.navbar .container-fluid{
+    padding-left: 0;
+    padding-right:0 ;
+} 
 .navbar{ 
     font-family:"Montserrat", sans-serif; 
     font-size: 25px;
@@ -21,6 +25,7 @@ body{
 }
 .navbar .navbar-nav .nav-item .nav-link{
     color: white;
+    padding: 10px;
 }
 .sticky-top{
     position:sticky;
@@ -34,9 +39,7 @@ body{
     color:white;
     margin-left: 10px;
 }
-.fa:hover{
-    color:black;
-}
+
 .col-lg-4{
     color:white;
     font-family:"Montserrat", sans-serif;
