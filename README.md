@@ -105,9 +105,11 @@ The main idea when designing this site is to be responsive on all devices this i
 #### [Balsamiq](https://balsamiq.com/) : used to create wireframes
 #### [Google Fonts](https://fonts.google.com/)
 #### [Font Awesome](https://fontawesome.com/) : used icons for the footer
-#### [Bootstrap5](https://getbootstrap.com/) : only used to code the navbar and footer
+#### [Bootstrap5](https://getbootstrap.com/) : only used to code the navbar, footer and form modal. I used two snippets:
+- [Bootstrap-navbar-toggler](https://getbootstrap.com/docs/5.0/components/navbar/)
+- ![Modal-snippet](screenshots/modal-snippet.png)
 ###### Although I appreciate the benefits of using Bootstrap I felt like building the website using my own code, I found it more challenging and educational. It made me do additional researches and solve problems. I have used media query to make the site responsive.
-#### [JavaScript](https://en.wikipedia.org/wiki/JavaScript) : used to design the carousel
+#### [JavaScript](https://en.wikipedia.org/wiki/JavaScript) : used to design the carousel and form modal 
 #### [Google Maps API](https://developers.google.com/maps/documentation/embed/get-started) : to display a map within a frame
 #### [Visual Studio Code](https://code.visualstudio.com/) : the most widely used development workplace
 #### [Github](https://github.com/) : for remote access of the site
@@ -132,7 +134,7 @@ The main idea when designing this site is to be responsive on all devices this i
 - from the **Source** section I selected branch **Master** and pressed **Save**
 - the site was hosted on **GitHub Pages**
 - I waited a few minutes before I could see it live
-![GitHub Pages](wireframes/githubpages.png)
+![GitHub Pages](screenshots/githubpages.png)
 ### **Fork a repo on GitHub** - forking allows to make a copy of the original and make changes without affecting the original. I followed the next steps:
 - from the repo page select **Fork** button on the upper right corner
 - the copy was made on the GitHub account

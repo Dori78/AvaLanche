@@ -8,12 +8,12 @@ body{
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-}   
+}
+/* Header styling */   
 .logo img{
     width: 100px;
     height: 100px;
 }
-/* Header styling */
 .header{
     display: flex;
     flex-direction: row;
@@ -38,7 +38,6 @@ p{
     text-align: right;
     }  
 /* Navbar styling */
-
 .navbar{ 
     font-family:"Montserrat", sans-serif; 
     font-size: 25px;
@@ -55,7 +54,6 @@ p{
 .sticky-top{
     position:sticky;
 }
-
 /* myVideo styling */
 .hero{
     width: 100%;
