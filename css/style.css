@@ -10,14 +10,18 @@ body{
     margin-right: 0;
 }
 /* Header styling */
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    }
+
 h1{
     font-family:"Chango", sans-serif;
-    text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     color: #696969;
-}
-.sign p{
-   margin-bottom: 0; 
 }
 p{
     font-family:"Chango", sans-serif;
@@ -25,12 +29,11 @@ p{
     color: #696969;
     font-size: 30px;
 }
-.col-lg-2.address{
+.address{
     color:#696969;
     font-family:"Montserrat", sans-serif; 
     text-align: right;
-}    
-
+    }  
 /* Navbar styling */
 .navbar{ 
     font-family:"Montserrat", sans-serif; 
@@ -105,24 +108,37 @@ p{
     .navbar-toggler{
         padding: 0;
         }
+        .logo img{
+            width: 40px;
+            height: 40px;
+        }
+        .address{
+            display: none;
+        }
+        h1{
+            font-size: 30px;
+        }
+        p{
+            font-size: 15px;
+        }
+    .ava{
+        text-align: center;
+    }
     }
 @media only screen and (max-width:768px){
-    .address{
-        display: none;
-    }
     .navbar{
         font-size: 15px;
     }
-    h1{
-        font-size: 40px;
-    }
-        p{
-            font-size: 35px;
+    
+}
+@media only screen and (max-width:640px){
+    .address{
+        display: none;
     }
 }
-@media only screen and (max-width:991px){
 
-}
+
+
 
 
 
