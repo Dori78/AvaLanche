@@ -120,7 +120,7 @@ h1{
 p{
     font-size: 12px;
 }
-.ava{
+.header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,10 +130,13 @@ p{
 .navbar{
     font-size: 15px;
 }
-.ava{
+.header{
     display: flex;
     justify-content:center;
     align-items: center;
+}
+.address{
+    display: none;
 }
 }
 @media only screen and (max-width:640px){
