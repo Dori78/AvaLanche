@@ -5,23 +5,25 @@ body{
 }
 .row{
     overflow-x: hidden;
-    max-width: 100vw;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
+    padding: 0;
+}   
+.logo img{
+    width: 100px;
+    height: 100px;
 }
 /* Header styling */
 .header{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
     justify-content: space-between;
     }
-
 h1{
     font-family:"Chango", sans-serif;
     font-size: 40px;
     color: #696969;
+    text-align: center;
 }
 p{
     font-family:"Chango", sans-serif;
@@ -39,16 +41,13 @@ p{
     font-family:"Montserrat", sans-serif; 
     font-size: 25px;
     padding: 0;
-    
 }
 .navbar-nav{
     background-color: #696969;
     width: 100%;
     justify-content: space-around;
-
 }
- 
-.navbar .navbar-nav .nav-item .nav-link{
+ .navbar .navbar-nav .nav-item .nav-link{
     color: white;
 }
 .sticky-top{
@@ -91,50 +90,62 @@ p{
     font-size: 30px;
 }
 
-@media only screen and (max-width: 576px) {
-   .video-line-top{
-      top:23px;
-      left:30px;
-      font-size: 20px;
-   } 
-    .video-line-bottom{
-        top:70px ;
-        left:30px;
-        font-size: 20px;
-    } 
-    .navbar{
-        font-size: 12px;
-    }
-    .navbar-toggler{
-        padding: 0;
-        }
-        .logo img{
-            width: 40px;
-            height: 40px;
-        }
-        .address{
-            display: none;
-        }
-        h1{
-            font-size: 30px;
-        }
-        p{
-            font-size: 15px;
-        }
-    .ava{
-        text-align: center;
-    }
-    }
+@media only screen and (max-width: 576px){
+.video-line-top{
+    top:23px;
+    left:30px;
+    font-size: 20px;
+} 
+.video-line-bottom{
+    top:70px ;
+    left:30px;
+    font-size: 20px;
+} 
+.navbar{
+    font-size: 12px;
+}
+.navbar-toggler{
+    padding: 0;
+}
+.logo img{
+    width: 50px;
+    height: 50px; 
+}
+.address{
+    display: none;
+}
+h1{
+    font-size: 22px;
+}
+p{
+    font-size: 12px;
+}
+.ava{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
 @media only screen and (max-width:768px){
-    .navbar{
-        font-size: 15px;
-    }
-    
+.navbar{
+    font-size: 15px;
+}
+.ava{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
 }
 @media only screen and (max-width:640px){
-    .address{
-        display: none;
-    }
+.address{
+    display: none;
+}
+h1{
+    font-size: 30px;
+}
+p{
+    font-size:10px
+}
 }
 
 

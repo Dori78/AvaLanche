@@ -1,24 +1,24 @@
-/* This is a navbar style */
+
 body{
     overflow-x: hidden;
 }
-.row.navbar{
-    font-family: "Montserrat", sans-serif; 
+/* About navbar styling */
+.navbar{ 
+    font-family:"Montserrat", sans-serif; 
     font-size: 25px;
-    background-color: #696969;
-    text-align: center;
+    padding: 0;
 }
- .navstyle{
-    text-decoration: none;
+.navbar-nav{
+    background-color: #696969;
+    width: 100%;
+    justify-content: space-around;
+}
+ .navbar .navbar-nav .nav-item .nav-link{
     color: white;
 }
-.navstyle:hover{
-    color: black;
-}
-.container-fluid.sticky-top{
+.sticky-top{
     position:sticky;
 }
-
 /* Contact container style */  
 .testimonials-container{
     display: flex;
