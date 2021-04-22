@@ -1,27 +1,12 @@
-body {
+  /* Contact page background style */
+  body {
     background-image: url(../images/contactimage.jpg);
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
     overflow-x: hidden;
-    }
-    /* Contact navbar styling */
-    .navbar{ 
-      font-family:"Montserrat", sans-serif; 
-      font-size: 25px;
-      padding: 0;
   }
-  .navbar-nav{
-      background-color: #696969;
-      width: 100%;
-      justify-content: space-around;
-  }
-   .navbar .navbar-nav .nav-item .nav-link{
-      color: white;
-  }
-  .sticky-top{
-      position:sticky;
-  }
+  /* Contact page forms style */
     h4{
      font-family:"Montserrat", sans-serif;
      background-color:#696969; 
@@ -30,16 +15,17 @@ body {
      padding:30px;
      text-align: center;
      letter-spacing: 1px;
-    }
+  }
   .container-contact{
     display: flex;
     justify-content: center;
     align-items: center;
-    }
+  }
   .heading{
     flex-direction: row;
-    }
-  .feedback, .booking{
+  }
+  .feedback, 
+  .booking{
     flex-direction: row;
     color:white;
     flex-basis: 70%;
@@ -50,22 +36,19 @@ body {
     margin-top:0;
   }
   
-  
- 
- 
 @media only screen and (max-width: 576px){
   .container-contact{
     flex-wrap: wrap;
   }
-  
 }
 @media only screen and (max-width: 768px){
 .container-contact{
   flex-wrap: wrap;
 }
-.feedback, .booking{
+.feedback, 
+.booking{
   flex-basis: 60%;
-}
+  }
 }
 
     

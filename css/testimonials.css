@@ -1,37 +1,18 @@
-
-body{
-    overflow-x: hidden;
-}
-/* About navbar styling */
-.navbar{ 
-    font-family:"Montserrat", sans-serif; 
-    font-size: 25px;
-    padding: 0;
-}
-.navbar-nav{
-    background-color: #696969;
-    width: 100%;
-    justify-content: space-around;
-}
- .navbar .navbar-nav .nav-item .nav-link{
-    color: white;
-}
-.sticky-top{
-    position:sticky;
-}
-/* Contact container style */  
+/* Testimonials container style */  
 .testimonials-container{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.left-content img, .right-content img{
-width: 35%;
-height: auto;
-border-radius: 50%;
-border: 5px solid #696969;
+.left-content img, 
+.right-content img{
+    width: 35%;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #696969;
 }
-.left-content, .right-content{
+.left-content, 
+.right-content{
     flex-direction: row;
     flex-basis: 70%;
     margin: 2%;
@@ -52,25 +33,32 @@ border: 5px solid #696969;
     color: #696969;
     letter-spacing: 1px;
 }
-.right-top, .left-center, .left-bottom, .left-top, .right-center, .right-bottom{
+.left-top, 
+.left-center, 
+.left-bottom, 
+.right-top, 
+.right-center, 
+.right-bottom{
     text-align: center;
 }
 @media only screen and (max-width: 576px){
     .testimonials-container{
-        flex-wrap: wrap;
+      flex-wrap: wrap;
     }
     .heading{
-      padding: 4%;  
-      order: -1;
+       padding: 4%;  
+       order: -1;
     }
-    .heading, .left-content{
-        flex-direction: row-reverse;
+    .heading, 
+    .left-content{
+       flex-direction: row-reverse;
     }
 }
 @media only screen and (max-width: 768px){
-.left-content, .right-content{
-    flex-basis: 100%;
-    margin: 1%;
+    .left-content, 
+    .right-content{
+       flex-basis: 100%;
+       margin: 1%;
     }
     .heading{
         padding: 7%;
@@ -78,24 +66,3 @@ border: 5px solid #696969;
 }
     
     
-/* Footer styling */
-.row.footer{
-    background-color: #696969;
-    padding:30px;
-    text-align: center;
-}
-.fa{
-    color:white;
-    margin-left: 10px;
-}
-.fa:hover{
-    color: black;
-}
-.col-lg-4{
-    color:white;
-    font-family:"Montserrat", sans-serif;
-    font-size: 20px; 
-}
-.col-lg-4:hover{
-    color: black;
-}

@@ -1,12 +1,4 @@
-.row{
-    overflow-x: hidden;
-    margin: 0;
-    margin: 0;
-}
-/* About navbar styling */
-
-
-/* Main content styling */
+/* First container with image styling */
 .container-about{
     position: relative;
 }
@@ -26,12 +18,13 @@
     text-align: center;
     font-family: "Montserrat", sans-serif;
 }
-.textover h4{
+.textover
+ h4{
     padding: 10px;
     flex-basis: 70%;
 }
 
-/* Second container */
+/* Second container with image and table */
 .container-about-opening{
     display: flex;
     align-items: center;
@@ -55,7 +48,9 @@ img{
     text-align: center;
     font-family:"Montserrat", sans-serif;
 }
-table,td,th{
+table,
+td,
+th{
     border: 2px solid black;
     border-collapse: collapse;
 }
@@ -69,7 +64,8 @@ table,td,th{
 }
 }
 @media only screen and (max-width:768px){
-.textover h4{
+.textover
+h4{
     flex-basis: 80%;
 }
 }
@@ -86,7 +82,7 @@ table,td,th{
 }
 }
 
-/* Footer styling */
+
 
 
 
