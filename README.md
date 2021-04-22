@@ -113,6 +113,7 @@ I am aware that the CSS files are not ordered following a good industry practice
 ---
 # Testing
 ### [HTML validation](https://validator.w3.org/)
+![W3C Validator](screenshots/html-validator.png)
 ### [CSS validation](https://jigsaw.w3.org/css-validator/)
 ### [Lighthouse Testing](https://developers.google.com/web/tools/lighthouse) : to improve the quality of the web page
 ### **Manual testing** - in my opinion manually testing a site on different devices gives the best overview and points out any issues with design and responsiveness. I had to fix a few things that were not showing on Google Dev Tool, but I found out about them when I was inspecting the site manually. The devices that the project was tested on are:
