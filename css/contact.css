@@ -1,4 +1,6 @@
-  /* Contact page background style */
+@import 'navbar-footer.css';
+@import 'style.css';
+/* Contact page background style */
   body {
     background-image: url(../images/contactimage.jpg);
     background-repeat: no-repeat;
