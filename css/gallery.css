@@ -1,1 +1,15 @@
 @import 'navbar-footer.css';
+.container-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ img{
+    width: 100%;
+    height: auto;
+ }
+ .row img{   
+ flex-direction: row;
+    flex-basis: 100%;
+}
+
