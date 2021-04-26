@@ -3,22 +3,26 @@
 background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 background-size: cover;
 }
-.top-container, .bottom-container{
+.top-container, 
+.bottom-container{
     display:flex;
     align-items: center;
 }
-.image-top, .image-bottom{
+.image-top, 
+.image-bottom{
     flex-basis: 50%;
     flex-grow: 0;
     border: 6px solid #696969;
 }
-.textRight, .textLeft{
+.textRight, 
+.textLeft{
    flex-basis: 50%; 
    color:white; 
    font-family: "Montserrat", sans-serif; 
    text-align: center;
 }
-.image-top img, .image-bottom img{
+.image-top img, 
+.image-bottom img{
     width: 100%;
     height: auto;
 }
@@ -27,17 +31,20 @@ background-size: cover;
 }
 
 @media only screen and (max-width: 576px) {
-.image-top, .image-bottom, .textRight, .textLeft{
+.image-top, 
+.image-bottom, 
+.textRight, 
+.textLeft{
     flex-basis: 100%;
 }
 h1{
     font-size: 20px;
 }
-.top-container, .bottom-container{
+.top-container, 
+.bottom-container{
     flex-wrap: wrap;
+  }
 }
-}
-
 /* Footer styling */
 .row.footer{
     background-color: #696969;

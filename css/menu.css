@@ -76,13 +76,13 @@ h4{
     }
 }
 @media only screen and (max-width: 576px){
-  .heading h1{
-      font-size: 16px;
-  }
-  .cold-container, 
-  .bubble-container{
-      flex-direction: column-reverse;
-  }
+    .heading h1{
+        font-size: 16px;
+    }
+    .cold-container, 
+    .bubble-container{
+        flex-direction: column-reverse;
+    }
 }
 
 

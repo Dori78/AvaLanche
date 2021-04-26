@@ -21,8 +21,6 @@
 .set div{
     flex-basis: 33.3%;
 }
-
-
 .carousel img{
     height: 100vh;
     width: 100%;
@@ -30,8 +28,7 @@
     object-position: center;
 } 
 @media only screen and (max-width: 576px){
-    .set img{
-        height: 220px;
-        
+.set img{
+    height: 220px;
     }
 }

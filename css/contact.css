@@ -1,7 +1,7 @@
 @import 'navbar-footer.css';
 @import 'style.css';
 /* Contact page background style */
-  body {
+  body{
     background-image: url(../images/contactimage.jpg);
     background-repeat: no-repeat;
     width: 100%;

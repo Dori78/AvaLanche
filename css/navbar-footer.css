@@ -17,7 +17,6 @@ body{
 .navbar{ 
     font-size: 25px;
     padding: 0;
-    
 }
 .navbar-nav{
     background-color: #696969;
@@ -52,20 +51,21 @@ body{
     font-family:"Montserrat", sans-serif;
     font-size: 16px; 
 }
-a:hover{
+span:hover{
     color:black;
 }
+
 @media only screen and (max-width: 576px){
-    .navbar{
-        font-size: 12px;
-    }
-    .navbar-toggler{
-        padding: 0;
-    }
+.navbar{
+    font-size: 12px;
+}
+.navbar-toggler{
+    padding: 0;
+  }
 }
 @media only screen and (max-width:768px){
-    .navbar{
-        font-size: 15px;
-    }
+.navbar{
+    font-size: 15px;
+  }
 }
 

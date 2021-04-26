@@ -28,7 +28,7 @@
     padding: 3%;
     letter-spacing: 2px;
 }
-    p{
+p{
     text-align: center;
     font-family: "Montserrat", sans-serif;
     color: #696969;
@@ -43,26 +43,26 @@
     text-align: center;
 }
 @media only screen and (max-width: 576px){
-    .testimonials-container{
-      flex-wrap: wrap;
-    }
-    .heading{
-       padding: 4%;  
-       order: -1;
-    }
-    .heading, 
-    .left-content{
-       flex-direction: row-reverse;
+.testimonials-container{
+    flex-wrap: wrap;
+}
+.heading{
+    padding: 4%;  
+    order: -1;
+}
+.heading, 
+.left-content{
+    flex-direction: row-reverse;
     }
 }
 @media only screen and (max-width: 768px){
-    .left-content, 
-    .right-content{
-       flex-basis: 100%;
-       margin: 1%;
-    }
-    .heading{
-        padding: 7%;
+.left-content, 
+.right-content{
+    flex-basis: 100%;
+    margin: 1%;
+}
+.heading{
+    padding: 7%;
     }
 }
     
