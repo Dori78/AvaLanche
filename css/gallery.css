@@ -3,11 +3,35 @@
     display: flex;
     background-color: #696969;
     justify-content: center;
+    flex-wrap: wrap;
 }
- img{
+ .set img{
     width: 100%;
-    height: auto;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
 }
- .row{
-    flex-basis: 100%;
+.set{
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-items: center;
+    justify-content: center;
+}
+.set div{
+    flex-basis: 33.3%;
+}
+
+
+.carousel img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+} 
+@media only screen and (max-width: 576px){
+    .set img{
+        height: 220px;
+        
+    }
 }
