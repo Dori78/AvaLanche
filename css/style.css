@@ -59,7 +59,7 @@ p{
 /* myVideo styling */
 .hero{
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     position: relative;
     overflow: hidden;
 }
@@ -123,21 +123,7 @@ p{
     text-decoration: underline;
 }  
     
-@media only screen and (max-width: 576px){
-.image-top, 
-.image-bottom, 
-.textRight, 
-.textLeft{
-    flex-basis: 100%;
-}
-h1{
-    font-size: 20px;
-}
-.top-container, 
-.bottom-container{
-    flex-wrap: wrap;
-  }
-}
+
 /* Footer styling */ 
 .row
 .footer{
@@ -149,6 +135,9 @@ h1{
 .footer 
 a{
     color:white; 
+}
+.footer a:hover{
+    color: black; 
 }
 .fa{
     color:white;
@@ -162,9 +151,42 @@ a{
     font-family:"Montserrat", sans-serif;
     font-size: 16px; 
 }
-.col-lg-4:hover{
-    color: black;
-}
+@media only screen and (max-width:768px){
+    .navbar{
+        font-size: 15px;
+    }
+    .header{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    
+    .logo img{
+        width: 100px;
+        height: 100px; 
+      }
+    }
+    @media only screen and (max-width:640px){
+    
+    h1{
+        font-size: 22px;
+    }
+    p{
+        font-size:10px;
+      }
+      .logo img{
+          width: 60px;
+          height: 60px;
+      }
+      .video-line-top{
+          top:50px;
+          left: 22px;
+      }
+      .video-line-bottom{
+          top: 100px;
+          left: 35px;
+      }
+    }
     
 @media only screen and (max-width: 576px){
 .video-line-top{
@@ -184,12 +206,10 @@ a{
     padding: 0;
 }
 .logo img{
-    width: 40px;
-    height: 40px;
+    width: 55px;
+    height: 55px;
 }
-.address{
-    display: none;
-}
+
 h1{
     font-size: 28px;
 }
@@ -204,35 +224,27 @@ p{
 .row.footer {
     font-size: 12px;
   }
+  
+    .image-top, 
+    .image-bottom, 
+    .textRight, 
+    .textLeft{
+        flex-basis: 100%;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .top-container, 
+    .bottom-container{
+        flex-wrap: wrap;
+      }
+    #google_translate_element{
+        width: 70%;
+    }
+    
 }
-@media only screen and (max-width:768px){
-.navbar{
-    font-size: 15px;
-}
-.header{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-}
-.address{
-    display: none;
-}
-.logo img{
-    width: 100px;
-    height: 100px; 
-  }
-}
-@media only screen and (max-width:640px){
-.address{
-    display: none;
-}
-h1{
-    font-size: 34px;
-}
-p{
-    font-size:10px;
-  }
-}
+
+   
 
 
 
