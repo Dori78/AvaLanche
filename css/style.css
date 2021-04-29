@@ -153,7 +153,6 @@ a{
     }
     .header{
         display: flex;
-        
         align-items: center;
         justify-content: space-evenly;
     }
@@ -226,6 +225,10 @@ p{
     align-items: center;
     justify-content: space-evenly;
 }
+#google_translate_element{
+    width: 70%;
+    font-size: 12px;
+}
 .row.footer {
     font-size: 12px;
   }
@@ -243,10 +246,6 @@ p{
     .bottom-container{
         flex-wrap: wrap;
       }
-    #google_translate_element{
-        width: 70%;
-        font-size: 12px;
-    }
     
 }
 
