@@ -1,4 +1,13 @@
 @import 'navbar-footer.css';
+/* Body style */
+body{
+    overflow-x: hidden;
+}
+.row{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
 /* Top image and header style */
 .header-image-container{
     display: flex;

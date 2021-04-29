@@ -1,5 +1,13 @@
 @import 'navbar-footer.css';
-
+/* Body style */
+body{
+    overflow-x: hidden;
+}
+.row{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
 /* First container with image styling */
 .container-about{
     position: relative;

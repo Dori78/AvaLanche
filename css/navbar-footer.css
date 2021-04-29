@@ -90,15 +90,15 @@ span:hover{
     padding: 0;
   }
   .logo img{
-    width: 55px;
-    height: 55px;
+    width: 45px;
+    height: 45px;
 }
 
-h1{
-    font-size: 28px;
+.ava h1{
+    font-size: 16px;
 }
 p{
-    font-size: 16px;
+    font-size: 11px;
 }
 .header {
     display: flex;
@@ -110,6 +110,7 @@ p{
   }
   #google_translate_element{
     width: 70%;
+    font-size: 12px;
 }
 }
 @media only screen and (max-width:768px){
