@@ -1,9 +1,9 @@
-@import 'navbar-footer.css';
+@import 'header-navbar-footer.css';
 /* Body style */
 body{
     overflow-x: hidden;
 }
-.row{
+.{
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ body{
     width: 100%;
     height: auto;
 }  
- .textover{
+.textover{
     position: absolute;
     top: 0;
     left: 0;
@@ -78,19 +78,19 @@ th{
   }
 }
 @media only screen and (max-width:768px){
-    .textover
-    h4{
-        flex-basis: 80%;
-      }
-    }
+.textover
+h4{
+    flex-basis: 80%;
+}
+}
 @media only screen and (max-width: 576px) {
-    .aboutImg{
-        flex-basis: 100%; 
-      } 
-    .table{
-        flex-basis: 100%;
-      }
-    }
+.aboutImg{
+    flex-basis: 100%; 
+} 
+.table{
+    flex-basis: 100%;
+}
+}
 
 
 

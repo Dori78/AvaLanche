@@ -1,11 +1,11 @@
-@import 'navbar-footer.css';
+@import 'header-navbar-footer.css';
 .container-images{
     display: flex;
     background-color: #696969;
     justify-content: center;
     flex-wrap: wrap;
 }
- .set img{
+.set img{
     width: 100%;
     height: 400px;
     object-fit: cover;

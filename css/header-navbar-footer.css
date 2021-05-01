@@ -3,7 +3,7 @@
 body{
     overflow-x: hidden;
 }
-.row{
+.{
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -13,25 +13,18 @@ body{
     width: 100px;
     height: 100px;
 }
-.header{
+.header-ava{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     }
-h1{
+.ava h1{
     font-family:"Chango", sans-serif;
     font-size: 40px;
     color: #696969;
     text-align: center;
 }
-p{
-    font-family:"Chango", sans-serif;
-    text-align: center;
-    color: #696969;
-    font-size: 30px;
-}
-
 /* Navbar style */
 .navbar 
 .container-fluid{
@@ -59,12 +52,15 @@ p{
     position:sticky;
 }
 /* Footer style */
-.row.footer{
+.row
+.footer{
     background-color: #696969;
     padding:10px;
     text-align: center;
 }
-.row.footer a{
+.row
+.footer 
+a{
     color: white;
 }
 .fa{
@@ -82,40 +78,62 @@ span:hover{
     color: black;
 }
 
+@media only screen and (max-width:768px){
+.navbar{
+    font-size: 15px;
+  }
+.header-ava{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo img{
+    width: 100px;
+    height: 100px; 
+  }
+  .video-line-top{
+    top:45px;
+    left: 22px;
+}
+.video-line-bottom{
+    top: 90px;
+    left: 35px;
+}
+}
+@media only screen and (max-width:640px){
+.ava h1{
+    font-size: 22px;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+}
+}
 @media only screen and (max-width: 576px){
 .navbar{
     font-size: 12px;
 }
 .navbar-toggler{
     padding: 0;
-  }
-  .logo img{
+}
+.logo img{
     width: 45px;
     height: 45px;
 }
-
 .ava h1{
     font-size: 16px;
 }
-p{
-    font-size: 11px;
-}
-.header {
+.header-ava {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 .row.footer {
     font-size: 12px;
-  }
-  #google_translate_element{
+}
+#google_translate_element{
     width: 70%;
     font-size: 12px;
 }
-}
-@media only screen and (max-width:768px){
-.navbar{
-    font-size: 15px;
-  }
 }
 
