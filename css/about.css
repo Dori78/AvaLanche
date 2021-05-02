@@ -1,13 +1,5 @@
-@import 'header-navbar-footer.css';
-/* Body style */
-body{
-    overflow-x: hidden;
-}
-.{
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-}
+@import'header-navbar-footer.css';
+
 /* First container with image styling */
 .container-about{
     position: relative;
@@ -43,7 +35,7 @@ body{
 .aboutImg{
     flex-basis: 50%;
 }
-img{
+.aboutImg img{
     width: 100%;
     height: auto;
 }

@@ -1,15 +1,7 @@
 @import 'header-navbar-footer.css';
-/* Body style */
-body{
-    overflow-x: hidden;
-}
-.row{
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-}
-/* Top image and header style */
-.header-image-container{
+
+/* Top image and heading style */
+.heading-image-container{
     display: flex;
     border: 8px solid #696969;
     align-items: center;
@@ -25,15 +17,15 @@ body{
   color: #696969;
   font-family: "Chango", sans-serif;
 }
-img{
+
+/* Container with drinks images and text */
+.firstimg img,
+.secondimg img,
+.thirdimg img,
+.forthimg img{
     width: 100%;
     height: auto;
 }
-.top-img{
-    width: 100%;
-    height: auto;
-}
-/* Container with drinks images and drinks */
 .hot-container,
 .cold-container,
 .alcoholic-container,
