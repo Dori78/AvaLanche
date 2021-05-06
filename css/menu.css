@@ -68,6 +68,7 @@ p{
     .alcoholic-container, 
     .bubble-container{
         flex-wrap: wrap;
+        flex-basis: 100%;
     }
     .firstimg, 
     .secondimg, 
@@ -79,6 +80,13 @@ p{
     .bubble-container{
         flex-direction: column-reverse;
     }
+    .dropdown-hot, 
+.dropdown-cold, 
+.dropdown-alcoholic, 
+.dropdown-bubble{
+    flex-basis: 100%;
+}
+
 }
 @media only screen and (max-width: 576px){
     .heading h1{
