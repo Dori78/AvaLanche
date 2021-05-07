@@ -21,8 +21,7 @@
   }
   .heading{
     flex-direction: row;
-  }
-  .feedback, 
+  } 
   .booking{
     flex-direction: row;
     color:white;
@@ -30,9 +29,7 @@
     margin: 4%;
     font-family: "Montserrat", sans-serif;
   }
-  .feedback{
-    margin-top:0;
-  }
+  
   
 @media only screen and (max-width: 576px){
   .container-contact{
@@ -42,8 +39,7 @@
 @media only screen and (max-width: 768px){
 .container-contact{
   flex-wrap: wrap;
-}
-.feedback, 
+} 
 .booking{
   flex-basis: 60%;
   }

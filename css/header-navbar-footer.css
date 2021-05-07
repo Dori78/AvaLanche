@@ -17,7 +17,8 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    }
+}
+
 .ava h1{
     font-family:"Chango", sans-serif;
     font-size: 40px;

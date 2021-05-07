@@ -2,32 +2,6 @@
 View via Github Pages [here](https://dori78.github.io/AvaLanche/)
 
 ![AvaLanche](screenshots/AvaLanche.png)
-## Table of Content
-[UX](#ux)
-
-[1.Strategy](#strategy)
-
-[2.Scope](#scope)
-
-[3.Structure](#structure)
-
-[4.Sceleton](#sceleton)
-
-[5.Surface](#surface)
-
-[Features](#featutes)
-
-[Design](#Design)
-
-[Technologies](#technologies)
-
-[Testing](#testing)
-
-[Deployment](#deployment)
-
-[Bugs and Issues](#bugs-and-issues)
-
-[Credits and Resources](#credits-and-resources)
 
 ---
 # UX
