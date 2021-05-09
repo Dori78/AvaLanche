@@ -122,17 +122,17 @@ I am aware that the CSS files are not ordered following a good industry practice
 - the browser was applying a left and right margin, which caused the site to wobble to the sides on mobile devices. After inspection and researching the web I fixed by it giving a "0" margin and padding on the main container in the CSS and applying overflow-x:hidden. 
 - About- the background image was not looking good on smaller devices, so I replaced it with a wallpaper by media query
 - Menu, Testimonials page- the containers with a text and image were wrapping nicely on mobile devices, but they were not in order- instead of image-text-image-text it was rendering as image-text-text-image. I found out how to fix this by exploring Flexbox and used the property flex-direction:column-reverse and order property to -1.
--CSS validation came back with 17 errors, but they were caused by the Bootstrap and after a research I found out that I can't do anything to fix them as the errors were not in my code. When you use third party products it says it often comes back with errors.
+-CSS validation came back with 17 errors, but they were caused by Bootstrap and after a research I found out that I can't do anything to fix them as the errors were not in my code. When you use third party products it says it often comes back with errors.
+-I had isssues with the form, on submitting the form is sent blank and the modal message comes together with the fill all fields alert.I have asked for help Slack, spent two days sharing my workspace and screenshots woth tutor support and no one could help me.
 ---
 # Credits and Resources
 ## I would like to thank the AvaLance Cafe management for providing me with the photos and information about the cafe.
 ---
-### Code Institute- for providing the course materials
 ### YourTube- for quick and effective advice 
 ### W3Schools- for the useful examples and detailed explanation
 ### Developer Mozilla- for the documentation and learning resources
 ### Tympanus- for the extended CSS reference 
-### My mentors Dick Vlaanderen and Adegbenga Adeye- for the useful tips and support
+
 
 
 
